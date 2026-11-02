@@ -176,3 +176,38 @@ Editorial safeguards
 Do not exaggerate danger or describe an entire country as unsafe because of a local incident. Do not infer airport or border closures. Distinguish an official travel advisory from a reported incident. Explain who should avoid or reconsider travel, which routes are affected and what practical precautions or alternatives are supported by evidence.
 
 Use confidence labels: CONFIRMED, PARTLY CONFIRMED, CONFLICTING, UNVERIFIED or STALE. Never publish an unverified safety claim as fact.
+AVIATION AND TRANSPORT INTELLIGENCE
+
+Purpose
+
+Identify and verify aviation and transport developments that directly affect travellers across Africa and relevant global routes.
+
+Monitor
+
+- Airport closures, operational restrictions and terminal changes.
+- Flight delays, cancellations, diversions and major disruptions.
+- Airspace closures, restrictions and NOTAMs.
+- Airline route launches, suspensions, resumptions and schedule changes.
+- Strikes, air traffic control disruptions and airport operational incidents.
+- Major changes affecting rail, road, ferry and cross-border transport.
+- Significant aviation safety developments with direct passenger implications.
+
+Sources
+
+Prioritise official airport authorities, civil aviation authorities, air navigation service providers, airlines, transport operators and official NOTAM/AIP publications. Use reputable aviation media for discovery and corroboration.
+
+Verification
+
+Confirm the affected airport, airline, route, flight numbers where available, event date, publication date, effective period and current operational status.
+
+Distinguish scheduled changes from actual disruptions, temporary restrictions from permanent changes, and pilot-facing technical notices from passenger-facing alerts.
+
+Check whether an announcement has been amended, cancelled or superseded. Do not infer passenger delays or cancellations from a technical NOTAM without evidence of traveller impact.
+
+Editorial safeguards
+
+Explain who is affected, which routes or services are involved, what travellers should do and where to obtain current operational information.
+
+Do not report routine technical notices as major travel alerts. Do not present airfare-search results as proof of flight availability or operational status. Never invent routes, cancellations, delays or closures.
+
+Use confidence labels: CONFIRMED, PARTLY CONFIRMED, CONFLICTING, UNVERIFIED or STALE.

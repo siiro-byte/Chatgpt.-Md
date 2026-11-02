@@ -1,6 +1,6 @@
 ## TRAVEL SAFETY INTELLIGENCE
 
-### PurposeChatGPT Working Principles
+### Purpose ChatGPT Working Principles
 
 These principles guide how ChatGPT should work with the user across projects and tasks.
 
@@ -176,7 +176,7 @@ Editorial safeguards
 Do not exaggerate danger or describe an entire country as unsafe because of a local incident. Do not infer airport or border closures. Distinguish an official travel advisory from a reported incident. Explain who should avoid or reconsider travel, which routes are affected and what practical precautions or alternatives are supported by evidence.
 
 Use confidence labels: CONFIRMED, PARTLY CONFIRMED, CONFLICTING, UNVERIFIED or STALE. Never publish an unverified safety claim as fact.
-## AVIATION AND TRANSPORT INTELLIGENCE.
+## AVIATION AND TRANSPORT INTELLIGENCE
 
 Purpose
 

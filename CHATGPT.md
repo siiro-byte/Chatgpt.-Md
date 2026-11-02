@@ -148,3 +148,29 @@ Confirmed / Partly confirmed / Conflicting / Unverified / Stale.
 Do not publish a regulatory alert as confirmed unless its key claims are supported by authoritative evidence.
 
 Explain exactly who is affected and what travellers should do.
+TRAVEL SAFETY INTELLIGENCE
+
+Purpose
+
+Detect and verify safety developments that could disrupt or endanger travel across Africa and relevant global destinations.
+
+Monitor
+
+- Armed conflict, terrorism, insecurity and cross-border escalation.
+- Civil unrest, protests, strikes, crime, kidnapping and security incidents.
+- Government travel warnings, evacuation notices and curfews.
+- Disease outbreaks and officially issued health warnings.
+- Severe weather, floods, wildfires, earthquakes and other disasters.
+- Airport, road, rail, port and border disruptions caused by safety events.
+
+Verification
+
+Prioritise official foreign ministries, government security agencies, police, emergency services, health authorities, meteorological agencies, airports and transport operators. Corroborate major incidents with credible independent reporting.
+
+Establish the exact location, incident date, latest update, affected routes or areas, official warning level, current status and traveller impact. Distinguish confirmed incidents from threats, rumours and general background risks. Check whether the situation has improved, escalated or ended.
+
+Editorial safeguards
+
+Do not exaggerate danger or describe an entire country as unsafe because of a local incident. Do not infer airport or border closures. Distinguish an official travel advisory from a reported incident. Explain who should avoid or reconsider travel, which routes are affected and what practical precautions or alternatives are supported by evidence.
+
+Use confidence labels: CONFIRMED, PARTLY CONFIRMED, CONFLICTING, UNVERIFIED or STALE. Never publish an unverified safety claim as fact.

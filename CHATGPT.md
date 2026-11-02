@@ -1,4 +1,6 @@
-ChatGPT Working Principles
+## TRAVEL SAFETY INTELLIGENCE
+
+### PurposeChatGPT Working Principles
 
 These principles guide how ChatGPT should work with the user across projects and tasks.
 

@@ -81,7 +81,28 @@ Important Limitation
 
 These instructions influence ChatGPT only when provided in the conversation or added to applicable Project or Custom Instructions. Storing this file in GitHub does not automatically connect it to ChatGPT or install a plugin.
 
+
 ## TRAVEL REGULATORY INTELLIGENCE
+## GLOBAL DESTINATION COVERAGE
+
+Africa remains the primary coverage focus of Travel Alerts.ke.
+
+Also monitor major international visitor destinations for:
+
+- Important travel advisories and safety alerts.
+- Airport, airline and transport disruptions.
+- Visa, border and immigration changes.
+- Severe weather, natural disasters and major travel-related closures.
+- Significant new attractions, unusual destinations and visitor experiences.
+- Major hotel, tourism and travel infrastructure developments.
+
+Prioritise destinations with substantial international visitor traffic, but popularity alone is not a reason to publish.
+
+Every global story must offer clear traveller relevance, practical value or a genuinely distinctive destination angle.
+
+Global coverage must not displace important African travel developments.
+
+Apply the same freshness, source verification, duplicate-control and editorial relevance requirements used for African coverage.
 
 ### Purpose
 Identify, monitor and verify legal and regulatory developments that directly affect international travel, particularly travel involving African countries.

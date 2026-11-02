@@ -199,6 +199,40 @@ Editorial safeguards
 Do not exaggerate danger or describe an entire country as unsafe because of a local incident. Do not infer airport or border closures. Distinguish an official travel advisory from a reported incident. Explain who should avoid or reconsider travel, which routes are affected and what practical precautions or alternatives are supported by evidence.
 
 Use confidence labels: CONFIRMED, PARTLY CONFIRMED, CONFLICTING, UNVERIFIED or STALE. Never publish an unverified safety claim as fact.
+
+
+## TRAVELLER SERVICES, INSURANCE & PROTECTION
+
+Purpose
+
+Identify useful insurance, medical, emergency-assistance and related services that travellers can access when travelling within, to or from Africa.
+
+Monitor
+
+- New travel insurance and medical insurance products, launches and material changes to existing cover.
+- Medical evacuation, air ambulance, ground ambulance and emergency assistance packages.
+- Telemedicine, travel-health support and medical services accessible across African destinations.
+- Mandatory inbound travel insurance and government-backed traveller protection schemes.
+- Repatriation, emergency response, travel assistance memberships and other practical protection services.
+- Verified traveller packages, discounts and partnerships that provide a clear practical benefit.
+
+Sources
+
+Prioritise official government portals, insurance regulators, licensed insurers, underwriters, medical providers and service operators. Use reputable media for discovery and corroboration. Link to the official product, policy terms or enrolment page wherever available.
+
+Verification
+
+Confirm the provider and, where applicable, the licensed insurer or underwriter; eligible nationalities and traveller categories; destinations and geographic limits; price and validity period; benefits, coverage limits, exclusions and claim or emergency procedures.
+
+Distinguish comprehensive travel insurance from medical evacuation membership, emergency assistance, health cover and statutory entry insurance. Explain when a product supplements or does not replace other required cover.
+
+Editorial safeguards
+
+Prioritise new launches, material changes and services that travellers can genuinely access. Do not present an existing product as newly launched merely because it has been rediscovered. Do not imply that a service is available across Africa when its coverage is regional or limited to named countries.
+
+Disclose commercial relationships or sponsored placements. Do not provide personal insurance or medical advice, rank products without a defensible comparison, or promise that a claim or evacuation will be covered. Encourage travellers to read the policy terms and confirm eligibility directly with the provider.
+
+Every story must explain who can use the service, where it applies, what practical protection it offers, important limitations and how to access it.
 ## AVIATION AND TRANSPORT INTELLIGENCE
 
 Purpose

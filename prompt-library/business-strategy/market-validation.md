@@ -54,7 +54,11 @@ Use before building a product, entering a market, launching a new service, inves
 Original prompt, informed by customer discovery and lean market-validation practices; no upstream prompt text reproduced.
 
 ## Testing notes
-Not yet tested. Record realistic test inputs, expected outputs, observed results, defects and revisions before changing status.
+- Scenario: A founder considers building an airport-transfer booking app. Evidence consists only of positive comments from friends; there are no paying customers and the budget is limited.
+- Expected behaviour: Treat compliments as weak evidence, rank the riskiest assumptions, propose low-cost behavioural tests, define observable measures and explain test limitations.
+- Observed behaviour: The prompt prioritises assumptions by uncertainty and consequence, matches test methods to assumptions, requires neutral questions and relevant participants, and separates observed behaviour from opinions.
+- Result: PASS in this first-pass scenario review; it directs the founder to validate demand before building.
+- Limitations: No participants were recruited and no demand test was conducted.
 
 ## Status
-Draft
+Tested

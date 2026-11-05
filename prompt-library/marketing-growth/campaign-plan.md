@@ -1,34 +1,62 @@
 # Campaign Planner
 
 ## Purpose
-Turn an objective into audience, offer, funnel, channel roles, creative angles, budget assumptions, tracking, metrics, tests and launch checklist.
+Turn a measurable marketing objective into an integrated campaign plan covering audience, offer, funnel, channel roles, creative, budget, measurement, experiments and launch operations.
 
 ## When to use
-Use when this outcome is needed and the relevant context or source material is available.
+Use when planning a product launch, acquisition campaign, lead-generation initiative, awareness campaign, seasonal promotion or campaign recovery.
 
 ## Required inputs
-- Objective and intended audience
-- Relevant context, constraints and source material
-- Desired format, scope and time horizon where applicable
+- Business objective and desired outcome
+- Product/service, offer, price and relevant proof
+- Target market, audience and geographic scope
+- Campaign dates, budget range and operational capacity
+- Available channels, assets and landing pages
+- Historical performance or benchmarks, if available
+- Tracking setup, conversion events and reporting needs
+- Legal, platform, brand and other constraints
 
 ## Instructions
-Act as a careful specialist for this task. Work only from the supplied facts and any sources explicitly available. Start by identifying the objective and constraints. Follow the task-specific direction in the purpose above. Make the result practical and structured. Clearly distinguish facts, assumptions, interpretations and unknowns. Ask one focused clarification only if a missing input materially prevents a reliable result; otherwise state a reasonable assumption and proceed. Do not invent evidence, sources, figures, quotations, dates or commitments. Prioritise the smallest useful answer and explain material limitations.
+1. Translate the business objective into one primary campaign outcome. Define the conversion or behaviour that represents success and distinguish it from supporting metrics.
+2. Check feasibility against budget, time, inventory/service capacity, sales follow-up and landing-page readiness. State missing inputs and assumptions.
+3. Define the priority audience by need, intent, context and buying stage. Specify exclusions or unsuitable audiences only where justified by the brief and applicable policy.
+4. Clarify the offer and value proposition. Identify the reason to act, proof available, friction points and likely objections. Do not invent discounts, guarantees or claims.
+5. Map the funnel from first exposure to conversion and post-conversion follow-up. For each stage, define audience mindset, message, asset, destination and next action.
+6. Assign each channel a distinct role based on audience behaviour, intent, format strengths, cost and available evidence. Avoid recommending every channel by default.
+7. Develop a small set of differentiated creative angles. For each, specify hook, core message, proof, format, call to action and intended funnel stage. Ensure creative claims match the evidence.
+8. Build a budget allocation with explicit assumptions. Separate media spend from production, tools and agency costs. If no reliable performance data exists, label allocations as test hypotheses rather than forecasts.
+9. Define measurement before launch: event names, tracking owner, attribution assumptions, UTMs, conversion quality checks, reporting cadence and primary/diagnostic metrics.
+10. Design experiments that isolate meaningful variables. State hypothesis, control, variant, audience, minimum observation conditions and decision rule. Do not claim statistical certainty from inadequate data.
+11. Create a launch checklist covering creative approvals, links, mobile experience, tracking, audience exclusions, budgets, schedules, policy review and contingency contacts.
+12. Set an optimisation rhythm and guardrails. Explain what to monitor, when to intervene, what requires more data and when to pause spend.
+13. Finish with key risks, dependencies, unresolved decisions and the first three actions in priority order.
 
 ## Expected output
-A structured, actionable result suited to the stated objective, with assumptions, evidence gaps and next steps made explicit.
+- Campaign brief and primary objective
+- Audience, offer and positioning
+- Funnel and channel-role plan
+- Creative angles and asset requirements
+- Budget allocation with assumptions
+- Measurement and tracking specification
+- Test plan with hypotheses and decision rules
+- Launch checklist and optimisation cadence
+- Risks, dependencies and immediate actions
 
 ## Quality checks
-- Accurate and relevant to the objective
-- Facts, assumptions and unknowns clearly separated
-- No fabricated evidence, sources or commitments
-- Practical recommendations with proportionate confidence
-- Clear structure and respect for privacy
+- Objective is measurable and linked to a business outcome
+- Audience and offer are clearly defined
+- Each channel has a justified role
+- Budget assumptions are transparent and feasible
+- Tracking is specified before launch
+- Tests isolate useful questions and have decision rules
+- Forecasts are not presented as facts
+- Claims, targeting and creative comply with applicable platform and legal requirements
 
 ## Source
-Original prompt. Uses general prompt-design and structured-analysis practices; no upstream prompt text reproduced.
+Original prompt, informed by campaign planning and performance marketing practices; no upstream prompt text reproduced.
 
 ## Testing notes
-Not yet tested. Record realistic test inputs, results, limitations and revisions before changing status.
+Not yet tested. Record realistic test inputs, expected outputs, observed results, defects and revisions before changing status.
 
 ## Status
 Draft

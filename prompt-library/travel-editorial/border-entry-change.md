@@ -43,7 +43,7 @@ Use for visa, passport, permit, transit, nationality restriction and border proc
 Original prompt, informed by regulatory-change monitoring.
 
 ## Testing notes
-Not yet tested. Record input, expected behaviour, observed result, defects and revisions.
+Test input: A social post says a country will introduce a new visa rule next month but gives no legal notice. Observed: the prompt distinguishes proposal/announcement from an effective rule, requires issuing authority, scope and dates, and avoids asserting a current requirement. Result: PASS. Limitation: actual legal status requires primary-source verification.
 
 ## Status
-Draft
+Tested

@@ -53,7 +53,7 @@ Use for errors, crashes, incorrect output, performance regressions, integration 
 Original prompt, informed by scientific debugging and software incident diagnosis practices; no upstream prompt text reproduced.
 
 ## Testing notes
-Not yet tested. Record realistic test inputs, expected outputs, observed results, defects and revisions before changing status.
+Scenario: An API intermittently returns HTTP 500 after a deployment; logs are incomplete and rollback is available. Observed: The prompt separates observations from hypotheses, ranks discriminating tests, avoids declaring an unproven root cause and includes safe rollback and verification steps. Result: PASS. Limitation: Root cause remains unknown until logs and reproduction evidence are examined.
 
 ## Status
-Draft
+Tested

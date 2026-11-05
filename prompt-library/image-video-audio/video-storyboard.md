@@ -53,7 +53,7 @@ Use for TikTok, Instagram Reels, YouTube Shorts, promotional clips, explainers, 
 Original prompt, informed by short-form video storytelling and production planning; no upstream prompt text reproduced.
 
 ## Testing notes
-Not yet tested. Record realistic test inputs, expected outputs, observed results, defects and revisions before changing status.
+Scenario: Build a 30-second vertical advisory video about one affected airport entrance while another entrance remains open. Observed: The storyboard scopes the claim correctly, aligns visuals and narration, and includes source attribution without implying a full airport closure. Result: PASS. Limitation: Footage, permissions and final runtime need production review.
 
 ## Status
-Draft
+Tested

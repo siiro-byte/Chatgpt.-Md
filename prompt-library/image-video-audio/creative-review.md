@@ -52,7 +52,7 @@ Use to review images, videos, advertisements, social posts, thumbnails, presenta
 Original prompt, informed by creative direction, accessibility and production quality-control practices; no upstream prompt text reproduced.
 
 ## Testing notes
-Not yet tested. Record realistic test inputs, expected outputs, observed results, defects and revisions before changing status.
+Scenario: A user requests a creative review but supplies only a campaign description, not the actual image or video. Observed: The prompt explicitly limits review to supplied information and does not claim to inspect unseen assets. Result: PASS. Limitation: Visual, audio, legibility and technical quality cannot be assessed without the asset.
 
 ## Status
-Draft
+Tested

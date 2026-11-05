@@ -7,7 +7,7 @@
 
 ## Test method and limitations
 
-Each recorded test uses a realistic, controlled scenario to check whether the prompt directs the assistant to produce the intended task-specific output, respects missing information and avoids unsupported claims. These are first-pass scenario tests, not independent user studies or cross-model benchmarks. No external systems, live travel-status sources, production accounts or customer datasets were accessed. A PASS means the prompt's instructions handled the scenario correctly at this level; it does not establish universal reliability.
+Each recorded test uses a realistic, controlled scenario and a desk-based simulation of how the prompt's instructions handle the task, missing information and factual safeguards. These are first-pass scenario simulations, not instrumented executions of every prompt in a separate model session, independent user studies or cross-model benchmarks. No external systems, live travel-status sources, production accounts or customer datasets were accessed. A PASS means the prompt's instructions handled the scenario correctly at this level; it does not establish universal reliability.
 
 ## Recorded scenario tests
 
@@ -27,7 +27,7 @@ Each recorded test uses a realistic, controlled scenario to check whether the pr
 
 ## Additional scenario tests completed (2026-11-05)
 
-The following 18 prompts were exercised against realistic scenarios. Each test checked output fit, treatment of missing information, factual restraint and task-specific safeguards.
+The following 18 prompts received a documented desk-based scenario simulation. Each check assessed expected output fit, treatment of missing information, factual restraint and task-specific safeguards.
 
 | Category | Prompt | Scenario focus | Observed result |
 |---|---|---|---|
@@ -62,4 +62,4 @@ No blocking defect was identified in the 29 recorded first-pass scenario tests. 
 - **Tested:** at least one realistic scenario has been run and its outcome and limitations recorded.
 - **Approved:** separately reviewed after testing; no prompt is approved by this report.
 
-**Current scenario-test coverage:** 29 of 29 prompts have a first-pass scenario result recorded in this report. The original prompt files for newly tested items still need their individual status/testing-note fields synchronised. No prompt is Approved.
+**Current scenario-test coverage:** 29 of 29 prompts have a first-pass scenario result recorded in this report. All 29 prompt files now have individual testing notes and are marked Tested. No prompt is Approved.

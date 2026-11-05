@@ -44,7 +44,7 @@ Use for destination assessment before or during a trip.
 Original prompt, informed by official destination-advisory practice.
 
 ## Testing notes
-Not yet tested. Record input, expected behaviour, observed result, defects and revisions.
+Test input: A traveller requests a destination brief but omits passport nationality and travel dates. Observed: the prompt asks for material missing details, separates legal entry requirements from advisories and avoids generic destination filler. Result: PASS. Limitation: no live destination status checked in this scenario.
 
 ## Status
-Draft
+Tested

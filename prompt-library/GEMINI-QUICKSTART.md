@@ -4,15 +4,23 @@ This guide explains how to use the repository's prompts and agent skills with Go
 
 ## Gemini CLI
 
-1. Clone the repository:
+1. Install a supported Node.js version and Gemini CLI by following the [official installation guide](https://github.com/google-gemini/gemini-cli/blob/main/docs/installation.md). The documented npm installation command is:
+   ```bash
+   npm install -g @google/gemini-cli
+   ```
+2. Clone the repository:
    ```bash
    git clone https://github.com/siiro-byte/Chatgpt.-Md.git
    cd Chatgpt.-Md
    ```
-2. Confirm that `GEMINI.md` is present at the repository root.
-3. Start Gemini CLI from the repository directory. Gemini CLI can use the root context file according to its current project-context behaviour.
-4. Ask Gemini to read `prompt-library/README.md`, select the relevant category and open the complete prompt file before beginning the task.
-5. For specialist workflows, ask Gemini to inspect the relevant `agent-skills/<source>/<skill>/SKILL.md` and any referenced local resources. Do not assume every imported skill is automatically registered as an installed extension.
+3. Confirm that `GEMINI.md` is present at the repository root.
+4. Start Gemini CLI from the repository directory:
+   ```bash
+   gemini
+   ```
+5. Verify that the project instructions loaded by running `/memory show`. The output should include the repository's root `GEMINI.md`. If it does not, check the working directory, trusted-folder status and context-file settings.
+6. Ask Gemini to read `prompt-library/README.md`, select the relevant category and open the complete prompt file before beginning the task.
+7. For specialist workflows, ask Gemini to inspect the relevant `agent-skills/<source>/<skill>/SKILL.md` and any referenced local resources. Do not assume every imported skill is automatically registered as an installed extension.
 
 Example request:
 
@@ -86,4 +94,4 @@ Check [TEST-REPORT.md](TEST-REPORT.md) before relying on a prompt as tested. A p
 
 ## Dependencies
 
-No Python, Node.js or package dependencies are required to read or use this Markdown library. Gemini CLI itself is an optional client and must be installed separately using Google's current official instructions.
+No Python, Node.js or package dependencies are required to read or use this Markdown library. Gemini CLI itself is an optional client and requires Node.js; install it separately using Google's [official Gemini CLI instructions](https://github.com/google-gemini/gemini-cli).

@@ -3,7 +3,7 @@
 **Test date:** 2026-11-05  
 **Repository:** https://github.com/siiro-byte/Chatgpt.-Md  
 **Scope:** 29 rewritten prompts across seven specialist categories  
-**Current result:** IN PROGRESS — 8 of 29 scenario tests recorded as passed
+**Current result:** IN PROGRESS — 9 of 29 scenario tests recorded as passed
 
 ## Test method and limitations
 
@@ -21,12 +21,12 @@ Each recorded test uses a realistic, controlled scenario to check whether the pr
 | Travel — Destination Intelligence Brief | Destination request omits passport nationality and travel dates | Requests material missing details; separates entry rules from advisories; avoids generic filler | PASS |
 | Travel — Border & Entry Rule Monitor | Social post claims a visa rule will start next month but supplies no legal notice | Distinguishes announcement/proposal from effective rule; requires authority, scope and dates | PASS |
 | Travel — Aviation & Transport Update | One flight delayed; no evidence of wider disruption | Limits scope to the service, checks operator/airport evidence and avoids generalising | PASS |
+| Travel — Traveller-First Social Post | Confirmed terminal entrance closure for renovation; other entrance remains open | Produces a scoped, dated, platform-adapted message; identifies affected passengers and action; avoids implying wider airport closure | PASS |
 
 ## Remaining tests
 
-The following 21 prompts still require a recorded scenario test:
+The following 20 prompts still require a recorded scenario test:
 
-- Travel Editorial: Traveller-First Social Post
 - Business & Strategy: Business Model Review; Market Validation Plan; Strategic Options Memo; Unit Economics Review
 - Writing & Communication: Clear Brief Writer; Editorial Rewrite & Polish; Professional Email Drafter; Stakeholder Update & Memo
 - Image, Video & Audio: Image Generation Brief; Short-Form Video Storyboard; Voiceover Script & Audio Direction; Creative Asset Quality Review
@@ -43,4 +43,4 @@ No blocking defect was identified in the eight recorded scenario tests. This is 
 - **Tested:** at least one realistic scenario has been run and its outcome and limitations recorded.
 - **Approved:** separately reviewed after testing; no prompt is approved by this report.
 
-**Current prompt status:** 8 prompts marked Tested; 21 remain Draft. No prompt is Approved.
+**Current prompt status:** 9 prompts marked Tested; 20 remain Draft. No prompt is Approved.

@@ -4,6 +4,8 @@ A curated, source-aware collection of reusable prompts for research, analysis, c
 
 This library uses the **Fabric** open-source prompt framework as a foundation and selectively incorporates useful material and techniques from Fabric, prompts.chat and the DAIR.AI Prompt Engineering Guide. It is curated rather than a wholesale mirror: prompts should be relevant, attributable, reviewed and tested before approval.
 
+For Google Gemini usage, see the [Gemini Quickstart](GEMINI-QUICKSTART.md). For repository-level Gemini CLI context, see the root [GEMINI.md](../GEMINI.md).
+
 ## Working principles
 - Quality over quantity; avoid duplicate or low-value prompts.
 - Preserve source attribution and applicable licences.
@@ -25,12 +27,12 @@ This library uses the **Fabric** open-source prompt framework as a foundation an
 | [Productivity & Learning](productivity-learning/README.md) | Learning plans, decisions, meetings and workflows | In progress |
 
 ## Prompt lifecycle
-- **Draft** — created, not yet tested.
-- **Tested** — tried on realistic tasks; results and limitations recorded.
-- **Approved** — reviewed and ready for reuse.
+- **Draft** — created, not yet tested, or awaiting a retest after a failure.
+- **Tested** — at least one realistic scenario has been run and its result and limitations recorded.
+- **Approved** — separately reviewed after testing.
 - **Retired** — no longer recommended.
 
-Do not label a prompt Tested or Approved without a recorded test.
+Do not label a prompt Tested or Approved without a recorded test. Consult [TEST-REPORT.md](TEST-REPORT.md) for the current recorded coverage.
 
 ## Adding or updating a prompt
 Use [PROMPT-TEMPLATE.md](PROMPT-TEMPLATE.md). Each prompt should include purpose, use case, required inputs, complete instructions, expected output, quality checks, source and attribution, testing notes and status.

@@ -47,7 +47,7 @@ Use for business correspondence, requests, follow-ups, introductions, updates, e
 Original prompt, informed by professional business correspondence and communication practices; no upstream prompt text reproduced.
 
 ## Testing notes
-Not yet tested. Record realistic test inputs, expected outputs, observed results, defects and revisions before changing status.
+Scenario: Draft a supplier follow-up requesting an updated delivery estimate; supplier name, email address and promised delivery date are absent. Observed: The prompt produces a concise email with placeholders and a clear request, without fabricating contact details or a deadline. Result: PASS. Limitation: Sender and recipient details must be filled before sending.
 
 ## Status
-Draft
+Tested

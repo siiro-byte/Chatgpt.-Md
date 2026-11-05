@@ -55,7 +55,7 @@ Use when choosing between growth paths, market entry, partnerships, investment, 
 Original prompt, informed by strategic decision analysis and scenario planning; no upstream prompt text reproduced.
 
 ## Testing notes
-Not yet tested. Record realistic test inputs, expected outputs, observed results, defects and revisions before changing status.
+Scenario: A Kenyan furniture studio must choose between opening a showroom, expanding online sales or retaining its made-to-order model; budget, demand and staffing data are incomplete. Observed: The prompt compares distinct options, includes the status quo, exposes missing evidence and avoids invented forecasts. Result: PASS. Limitation: A final recommendation needs verified customer, cost and capacity data.
 
 ## Status
-Draft
+Tested

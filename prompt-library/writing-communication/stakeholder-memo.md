@@ -53,7 +53,7 @@ Use for leadership updates, board or investor memos, project status reports, cus
 Original prompt, informed by executive communication and stakeholder reporting practices; no upstream prompt text reproduced.
 
 ## Testing notes
-Not yet tested. Record realistic test inputs, expected outputs, observed results, defects and revisions before changing status.
+Scenario: A project update confirms a two-day delay and one unresolved supplier dependency, but gives no named owner or next update date. Observed: The memo separates confirmed facts from unresolved issues, marks ownership as unassigned and uses an event-triggered update rather than inventing a date. Result: PASS. Limitation: Impact and mitigation require additional project evidence.
 
 ## Status
-Draft
+Tested

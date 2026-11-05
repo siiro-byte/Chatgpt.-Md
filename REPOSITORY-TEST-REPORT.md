@@ -31,7 +31,7 @@ This repository is an instruction and prompt library, not an executable applicat
 
 ## Prompt-library test status
 
-The separate [Prompt Library Test Report](prompt-library/TEST-REPORT.md) records 11 of 29 scenario tests as passed, with 18 prompts still awaiting tests. No prompt is marked Approved. These are recorded prompt-level scenario tests, not automated repository CI tests.
+The separate [Prompt Library Test Report](prompt-library/TEST-REPORT.md) now records first-pass scenario results for all 29 prompts. No prompt is marked Approved. The scenario results are not automated repository CI tests or independent cross-model benchmarks. Individual prompt files still need their status/testing-note fields synchronised for the newly tested items.
 
 A documentation count mismatch was found during review: the defects section said eight scenario tests although the table and status summary recorded eleven. This wording was corrected to eleven in the prompt test report.
 
@@ -73,7 +73,7 @@ If using Gemini web or a Gem rather than Gemini CLI, upload the relevant Markdow
 - This report records checks that were performed through GitHub repository reads and metadata. It does not claim that a local clone, Markdown linter, automated unit test, or Gemini session was executed.
 - GitHub returned no commit status checks, and the repository has no detected GitHub Actions workflow files.
 - The 15 skill files were counted from the repository tree; this report does not certify all skill metadata, scripts, referenced resources or runtime behaviour.
-- The 18 untested prompts remain Draft until scenario tests are completed and recorded.
+- All 29 prompts now have first-pass scenario results recorded in the prompt test report. Newly tested prompt files whose individual status fields have not yet been synchronised may still display Draft; no prompt is Approved.
 
 ## Overall conclusion
 

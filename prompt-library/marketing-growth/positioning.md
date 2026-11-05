@@ -51,7 +51,7 @@ Use for brand or product positioning, repositioning, offer refinement, launch me
 Original prompt, informed by positioning strategy and customer research practices; no upstream prompt text reproduced.
 
 ## Testing notes
-Not yet tested. Record realistic test inputs, expected outputs, observed results, defects and revisions before changing status.
+Test input: A small Nairobi-based commuter service has three competitors and limited customer interview data. Observed: the prompt separates audience need, alternatives, benefits and proof; labels unsupported differentiation as a hypothesis; and proposes validation. Result: PASS. Limitation: competitor facts require supplied or researched evidence.
 
 ## Status
-Draft
+Tested

@@ -56,7 +56,7 @@ Use when planning a product launch, acquisition campaign, lead-generation initia
 Original prompt, informed by campaign planning and performance marketing practices; no upstream prompt text reproduced.
 
 ## Testing notes
-Not yet tested. Record realistic test inputs, expected outputs, observed results, defects and revisions before changing status.
+Test input: KES 100,000, 30-day campaign for a new service with no historical conversion data. Observed: the prompt builds objectives, funnel, channel roles, budget assumptions, tracking and tests without inventing forecasts. Result: PASS. Limitation: budget allocation remains a test hypothesis without performance history.
 
 ## Status
-Draft
+Tested

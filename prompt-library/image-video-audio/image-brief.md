@@ -1,34 +1,61 @@
 # Image Generation Brief
 
 ## Purpose
-Specify subject, setting, composition, viewpoint, lighting, palette, style, exact text, brand assets, aspect ratio and exclusions. Preserve supplied logos exactly; output a ready-to-use prompt and review checklist.
+Translate a visual objective into a precise, production-ready image brief or generation prompt. Specify subject, scene, composition, style, lighting, palette, text, brand assets, format and exclusions while preserving supplied assets and factual requirements.
 
 ## When to use
-Use when this outcome is needed and the relevant context or source material is available.
+Use when planning an original image, campaign visual, editorial graphic, product image, social post, thumbnail, illustration or visual concept.
 
 ## Required inputs
-- Objective and intended audience
-- Relevant context, constraints and source material
-- Desired format, scope and time horizon where applicable
+- Communication objective and audience
+- Subject and key message
+- Intended use/platform and aspect ratio or dimensions
+- Required setting, composition and visual references
+- Brand colours, typography and supplied logo/assets
+- Exact text that must appear, if any
+- Style preferences and elements to avoid
+- Accessibility or legibility requirements
 
 ## Instructions
-Act as a careful specialist for this task. Work only from the supplied facts and any sources explicitly available. Start by identifying the objective and constraints. Follow the task-specific direction in the purpose above. Make the result practical and structured. Clearly distinguish facts, assumptions, interpretations and unknowns. Ask one focused clarification only if a missing input materially prevents a reliable result; otherwise state a reasonable assumption and proceed. Do not invent evidence, sources, figures, quotations, dates or commitments. Prioritise the smallest useful answer and explain material limitations.
+1. Clarify the image's purpose, audience, placement and the single most important message.
+2. Identify the main subject and supporting elements. Specify what must be prominent, secondary or absent.
+3. Describe the scene and environment concretely: location, time, context, props, background and subject relationships.
+4. Define composition: framing, camera/viewpoint, subject placement, focal hierarchy, depth, negative space and crop safety.
+5. Specify visual treatment: medium/style, realism level, lighting, mood, colour palette, contrast, texture and detail.
+6. Treat text as exact copy. Preserve spelling, punctuation, hierarchy and line breaks where possible. If reliable text rendering is uncertain, recommend adding typography in a design editor rather than relying on generated lettering.
+7. Use supplied logos and brand assets without altering their shape, proportions, spelling or colours unless explicitly authorised. State clear placement and minimum clear space.
+8. Specify platform dimensions/aspect ratio and safe zones. Keep critical text and logos away from edges and likely interface overlays.
+9. Add negative constraints for unwanted elements, visual clutter, misleading symbolism, incorrect uniforms/locations, extra text or distorted brand assets.
+10. Provide one coherent master prompt, plus optional variants only when they test a meaningful creative direction rather than minor wording changes.
+11. Include a review checklist covering message clarity, brand fidelity, factual accuracy, legibility, composition and technical format.
+12. Do not claim that an image has been generated or inspected unless that action has actually occurred.
 
 ## Expected output
-A structured, actionable result suited to the stated objective, with assumptions, evidence gaps and next steps made explicit.
+- Visual objective and audience
+- Creative concept and focal hierarchy
+- Detailed scene/composition description
+- Style, lighting and palette
+- Exact text and brand-asset instructions
+- Aspect ratio, dimensions and safe zones
+- Negative constraints
+- Ready-to-use generation prompt
+- Optional meaningful variants
+- Post-generation review checklist
 
 ## Quality checks
-- Accurate and relevant to the objective
-- Facts, assumptions and unknowns clearly separated
-- No fabricated evidence, sources or commitments
-- Practical recommendations with proportionate confidence
-- Clear structure and respect for privacy
+- Visual concept serves the communication objective
+- Main subject and hierarchy are unambiguous
+- Brand assets are preserved exactly as instructed
+- Text is accurate and legible or flagged for post-production
+- Format and safe zones fit the target platform
+- No misleading visual claims or invented factual details
+- Exclusions are explicit and testable
 
 ## Source
-Original prompt. Uses general prompt-design and structured-analysis practices; no upstream prompt text reproduced.
+Original prompt, informed by visual-communication and image-art-direction practices; no upstream prompt text reproduced.
 
 ## Testing notes
-Not yet tested. Record realistic test inputs, results, limitations and revisions before changing status.
+Not yet tested. Record realistic test inputs, expected outputs, observed results, defects and revisions before changing status.
 
 ## Status
 Draft

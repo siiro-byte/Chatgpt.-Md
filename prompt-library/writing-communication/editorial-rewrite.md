@@ -45,7 +45,7 @@ Use to edit articles, reports, web copy, social posts, newsletters, speeches, pr
 Original prompt, informed by professional editing and editorial quality-control practices; no upstream prompt text reproduced.
 
 ## Testing notes
-Not yet tested. Record realistic test inputs, expected outputs, observed results, defects and revisions before changing status.
+Scenario: An announcement has typos, repetition and the ambiguous claim “orders resume soon.” Observed: The rewrite improves clarity but preserves uncertainty and flags “soon” instead of inventing a date. Result: PASS. Limitation: Facts are not independently verified.
 
 ## Status
-Draft
+Tested

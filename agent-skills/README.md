@@ -61,3 +61,14 @@ Source: [obra/superpowers](https://github.com/obra/superpowers) — MIT License 
 - `superpowers/receiving-code-review` — evaluate review feedback against the actual codebase before implementing it; clarify ambiguity, test fixes individually, and push back with evidence when necessary.
 
 Only this self-contained skill was imported from Superpowers in this pass. Other candidates were excluded where they duplicated existing skills, depended on unimported supporting files, or imposed workflow gates that conflict with the repository's working principles. The source skill was reviewed statically; this is not a guarantee of safety or correctness.
+
+### Scrapling
+
+Source: [D4Vinci/Scrapling](https://github.com/D4Vinci/Scrapling) — BSD 3-Clause License (copy included in `scrapling-official/LICENSE.txt`).
+
+- `scrapling-official/SKILL.md` — official upstream agent skill for the Scrapling web-scraping and crawling framework, including HTTP fetching, browser-backed fetching, MCP usage, spiders, adaptive parsing and prompt-injection-aware extraction guidance.
+- Upstream skill path: `agent-skill/Scrapling-Skill/SKILL.md`.
+- Upstream version recorded in the imported skill frontmatter: 0.5.1.
+
+This is an instruction/skill import only. It does **not** install Python, browser binaries, the Scrapling package, or an MCP server in ChatGPT. Runtime installation must happen in a compatible Python/agent environment. Use the official setup steps in the skill and keep browser/MCP access local or authenticated; do not expose an unauthenticated scraping server publicly.
+

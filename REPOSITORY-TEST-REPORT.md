@@ -73,7 +73,7 @@ If using Gemini web or a Gem rather than Gemini CLI, upload the relevant Markdow
 - This report records checks that were performed through GitHub repository reads and metadata. It does not claim that a local clone, Markdown linter, automated unit test, or Gemini session was executed.
 - GitHub returned no commit status checks, and the repository has no detected GitHub Actions workflow files.
 - The 15 skill files were counted from the repository tree; this report does not certify all skill metadata, scripts, referenced resources or runtime behaviour.
-- All 29 prompts now have first-pass scenario results recorded in the prompt test report. Newly tested prompt files whose individual status fields have not yet been synchronised may still display Draft; no prompt is Approved.
+- All 29 prompts now have individual testing notes and are marked Tested. The 18 additional results are desk-based scenario simulations recorded in the prompt test report, not instrumented executions in a separate model session. No prompt is Approved.
 
 ## Overall conclusion
 

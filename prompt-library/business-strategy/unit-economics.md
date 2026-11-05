@@ -1,34 +1,62 @@
 # Unit Economics Review
 
 ## Purpose
-Calculate unit revenue, variable costs, contribution, margins, CAC, payback and break-even from supplied figures. Show formulas, flag missing inputs and label scenarios; never fabricate numbers.
+Calculate and interpret the economics of a clearly defined business unit. Show revenue, variable costs, contribution, acquisition cost, retention/payback and break-even where the supplied data supports them; expose assumptions and sensitivity rather than fabricating precision.
 
 ## When to use
-Use when this outcome is needed and the relevant context or source material is available.
+Use when evaluating pricing, customer or order profitability, acquisition efficiency, subscription economics, service margins, growth sustainability or break-even requirements.
 
 ## Required inputs
-- Objective and intended audience
-- Relevant context, constraints and source material
-- Desired format, scope and time horizon where applicable
+- Business model and unit to analyse (customer, order, booking, subscription, project, transaction or other)
+- Period and currency
+- Price/revenue per unit and discounts/refunds
+- Variable costs attributable to the unit
+- Acquisition spend and acquired customers, if CAC is required
+- Repeat purchase, retention, churn or usage data, if lifetime value is required
+- Fixed costs and capacity constraints, if break-even is required
+- Source, date and definitions for each figure
 
 ## Instructions
-Act as a careful specialist for this task. Work only from the supplied facts and any sources explicitly available. Start by identifying the objective and constraints. Follow the task-specific direction in the purpose above. Make the result practical and structured. Clearly distinguish facts, assumptions, interpretations and unknowns. Ask one focused clarification only if a missing input materially prevents a reliable result; otherwise state a reasonable assumption and proceed. Do not invent evidence, sources, figures, quotations, dates or commitments. Prioritise the smallest useful answer and explain material limitations.
+1. Define the economic unit and analysis period. Ensure all figures use compatible time periods, currencies and denominators.
+2. Create an input table with value, unit, period, source and status (actual, estimate, assumption or missing). Do not silently fill gaps.
+3. Calculate net revenue per unit: gross price less discounts, refunds, taxes or pass-through amounts as appropriate to the business and accounting definition. State what is included.
+4. Calculate variable cost per unit by listing each attributable cost, including payment fees, materials, fulfilment, commissions, delivery, support and other usage-linked costs where applicable.
+5. Calculate contribution per unit = net revenue per unit − variable cost per unit. Calculate contribution margin = contribution per unit ÷ net revenue per unit, where net revenue is positive.
+6. If acquisition data is supplied, calculate CAC = attributable acquisition spend ÷ number of new customers acquired in the same cohort/period. Explain channel attribution and avoid mixing spend periods with acquisition cohorts.
+7. If retention/repeat data supports it, estimate customer lifetime value using a stated method and horizon. Show the retention, margin and discount assumptions; distinguish observed cohort value from a forecast.
+8. Calculate CAC payback only when contribution over time and acquisition timing are known. State the payback period and assumptions.
+9. Calculate break-even volume only when fixed costs and contribution per unit are known: break-even units = fixed costs ÷ contribution per unit. Explain limitations such as capacity, mixed products and step-fixed costs.
+10. Build conservative, base and upside scenarios by varying explicit drivers such as price, conversion, repeat rate, variable cost or CAC. Do not disguise arbitrary assumptions as forecasts.
+11. Run sensitivity analysis to identify which variables most affect contribution, payback and break-even. Highlight thresholds at which the model becomes unviable.
+12. Interpret implications for pricing, acquisition, retention, fulfilment and scale. Explain where growth may worsen cash flow or service capacity.
+13. List missing data and the next measurement needed to improve confidence.
 
 ## Expected output
-A structured, actionable result suited to the stated objective, with assumptions, evidence gaps and next steps made explicit.
+- Unit definition and analysis period
+- Input register with sources and data quality
+- Revenue and variable-cost breakdown
+- Contribution and contribution margin
+- CAC, lifetime value and payback where calculable
+- Break-even analysis where calculable
+- Scenario and sensitivity analysis
+- Commercial implications and risks
+- Missing data and next measurement priorities
 
 ## Quality checks
-- Accurate and relevant to the objective
-- Facts, assumptions and unknowns clearly separated
-- No fabricated evidence, sources or commitments
-- Practical recommendations with proportionate confidence
-- Clear structure and respect for privacy
+- Unit, currency, period and denominators are consistent
+- Formulas are shown and calculations reproducible
+- Actuals, estimates and assumptions are separated
+- No metric is calculated when required inputs are missing
+- CAC and LTV definitions/cohorts are compatible
+- Scenario drivers are explicit and plausible
+- Negative contribution and cash-flow risks are not obscured
+- Recommendations follow from the calculations and limitations
 
 ## Source
-Original prompt. Uses general prompt-design and structured-analysis practices; no upstream prompt text reproduced.
+Original prompt, informed by management accounting and unit-economics analysis; no upstream prompt text reproduced.
 
 ## Testing notes
-Not yet tested. Record realistic test inputs, results, limitations and revisions before changing status.
+Not yet tested. Record realistic test inputs, expected outputs, observed results, defects and revisions before changing status.
 
 ## Status
 Draft

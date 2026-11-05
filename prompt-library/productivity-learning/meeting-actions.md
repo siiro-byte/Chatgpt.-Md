@@ -50,7 +50,7 @@ Use after project meetings, planning sessions, client calls, workshops, manageme
 Original prompt, informed by meeting facilitation and action tracking practices; no upstream prompt text reproduced.
 
 ## Testing notes
-Not yet tested. Record realistic test inputs, expected outputs, observed results, defects and revisions before changing status.
+Scenario: Meeting notes include a supplier-change proposal and a “check the contract” task, but no recorded decision, owner or deadline. Observed: The prompt keeps the change as a proposal, marks action ownership and deadline as unspecified, and separates open questions from decisions. Result: PASS. Limitation: Ambiguous statements require participant confirmation.
 
 ## Status
-Draft
+Tested

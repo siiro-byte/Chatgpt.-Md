@@ -1,34 +1,63 @@
 # Decision Log & Review
 
 ## Purpose
-Record context, decision, options, criteria, evidence, assumptions, risks, owner, date and review trigger. State what would invalidate the decision.
+Create a durable, auditable record of important decisions so teams can understand what was decided, why, on what evidence, by whom and under which conditions the decision should be revisited.
 
 ## When to use
-Use when this outcome is needed and the relevant context or source material is available.
+Use for product, business, operational, technical, project, policy and resource-allocation decisions that may need to be understood or reviewed later.
 
 ## Required inputs
-- Objective and intended audience
-- Relevant context, constraints and source material
-- Desired format, scope and time horizon where applicable
+- Decision or question being resolved
+- Date and decision owner/participants, if known
+- Context, objective and constraints
+- Options considered
+- Evidence, data and sources
+- Decision criteria and trade-offs
+- Chosen option and rationale
+- Risks, assumptions and implementation actions
+- Review date or trigger, if known
 
 ## Instructions
-Act as a careful specialist for this task. Work only from the supplied facts and any sources explicitly available. Start by identifying the objective and constraints. Follow the task-specific direction in the purpose above. Make the result practical and structured. Clearly distinguish facts, assumptions, interpretations and unknowns. Ask one focused clarification only if a missing input materially prevents a reliable result; otherwise state a reasonable assumption and proceed. Do not invent evidence, sources, figures, quotations, dates or commitments. Prioritise the smallest useful answer and explain material limitations.
+1. State the decision question clearly and explain why it arose now.
+2. Record the context, objective, scope, constraints and consequences of delaying or not deciding.
+3. List the options genuinely considered, including the status quo where relevant. Distinguish options considered from options rejected before formal evaluation.
+4. Record decision criteria and their relative importance. Include strategic fit, user/customer impact, cost, time, risk, reversibility and feasibility where relevant.
+5. Summarise the evidence used, including source, date, quality and limitations. Separate facts, estimates, assumptions and opinions.
+6. Document the chosen option and the reasoning that connects it to the criteria. Note material trade-offs and why alternatives were not selected.
+7. Record who made or approved the decision and when only if supplied. Do not infer authority or approval from meeting attendance.
+8. List implementation actions with owners, deadlines and dependencies where known. Mark missing assignments explicitly.
+9. Identify risks, unintended consequences and assumptions that could invalidate the decision.
+10. Define review conditions: date, milestone, metric threshold, new evidence or external event that should trigger reconsideration.
+11. Record the expected outcome and how it will be evaluated. Avoid inventing targets not agreed by the decision owner.
+12. When reviewing an old decision, compare actual outcomes with expectations and record whether to maintain, adapt or reverse it. Preserve the original entry and add a dated review note rather than silently rewriting history.
 
 ## Expected output
-A structured, actionable result suited to the stated objective, with assumptions, evidence gaps and next steps made explicit.
+- Decision ID/title and date
+- Decision question and context
+- Objective, constraints and criteria
+- Options considered
+- Evidence and assumptions register
+- Decision, rationale and trade-offs
+- Decision owner/approval status
+- Actions, owners and deadlines
+- Risks and invalidating assumptions
+- Review trigger and success measures
+- Dated review history, when applicable
 
 ## Quality checks
-- Accurate and relevant to the objective
-- Facts, assumptions and unknowns clearly separated
-- No fabricated evidence, sources or commitments
-- Practical recommendations with proportionate confidence
-- Clear structure and respect for privacy
+- Decision and scope are unambiguous
+- Evidence is dated and traceable
+- Assumptions and opinions are not presented as facts
+- Options and trade-offs are documented fairly
+- Approval and ownership are not inferred
+- Review triggers are observable
+- Historical changes preserve an audit trail
 
 ## Source
-Original prompt. Uses general prompt-design and structured-analysis practices; no upstream prompt text reproduced.
+Original prompt, informed by decision-recording and organisational learning practices; no upstream prompt text reproduced.
 
 ## Testing notes
-Not yet tested. Record realistic test inputs, results, limitations and revisions before changing status.
+Not yet tested. Record realistic test inputs, expected outputs, observed results, defects and revisions before changing status.
 
 ## Status
 Draft

@@ -57,7 +57,7 @@ Use for product, business, operational, technical, project, policy and resource-
 Original prompt, informed by decision-recording and organisational learning practices; no upstream prompt text reproduced.
 
 ## Testing notes
-Not yet tested. Record realistic test inputs, expected outputs, observed results, defects and revisions before changing status.
+Scenario: A team discusses selecting a software vendor, but notes omit the approver, decision date and review trigger. Observed: The prompt records options and evidence while marking approval, date and review trigger unknown; it does not infer authority from attendance. Result: PASS. Limitation: The log is not an approval record until the decision owner confirms it.
 
 ## Status
-Draft
+Tested

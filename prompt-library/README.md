@@ -16,13 +16,13 @@ This library uses the **Fabric** open-source prompt framework as a foundation an
 | Category | Purpose | Status |
 |---|---|---|
 | [Research & Intelligence](research-intelligence/README.md) | Research, verification, monitoring, risk, trends and analysis | In progress |
-| Marketing & Growth | Marketing strategy, audience research and growth | Planned |
-| Travel & Editorial | Travel intelligence, destination research and editorial workflows | Planned |
-| Business & Strategy | Business models, competitive strategy and decisions | Planned |
-| Writing & Communication | Writing, editing and communication | Planned |
-| Image, Video & Audio | Creative briefs and multimodal workflows | Planned |
-| Coding & Technology | Software development and technical problem-solving | Planned |
-| Productivity & Learning | Planning, learning and personal productivity | Planned |
+| [Marketing & Growth](marketing-growth/README.md) | Positioning, audience insight, campaigns and measurable growth | In progress |
+| [Travel Editorial](travel-editorial/README.md) | Travel alerts, destination intelligence, border and transport developments | In progress |
+| [Business & Strategy](business-strategy/README.md) | Business models, validation, strategic choices and commercial logic | In progress |
+| [Writing & Communication](writing-communication/README.md) | Clear writing, editing and stakeholder communication | In progress |
+| [Image, Video & Audio](image-video-audio/README.md) | Creative briefs, storyboards, scripts and quality review | In progress |
+| [Coding & Technology](coding-technology/README.md) | Requirements, code review, debugging and architecture | In progress |
+| [Productivity & Learning](productivity-learning/README.md) | Learning plans, decisions, meetings and workflows | In progress |
 
 ## Prompt lifecycle
 - **Draft** — created, not yet tested.

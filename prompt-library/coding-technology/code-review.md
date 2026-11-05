@@ -51,7 +51,7 @@ Use for pull requests, code changes, scripts, APIs, configuration, infrastructur
 Original prompt, informed by secure code review and software quality practices; no upstream prompt text reproduced.
 
 ## Testing notes
-Not yet tested. Record realistic test inputs, expected outputs, observed results, defects and revisions before changing status.
+Scenario: Review an endpoint snippet accepting user input, with no visible authorisation check or accompanying tests. Observed: The prompt frames the missing check as a risk to validate, avoids claiming exploitability without a plausible path, and distinguishes proposed tests from tests run. Result: PASS. Limitation: A snippet-only review cannot establish whole-application security.
 
 ## Status
-Draft
+Tested

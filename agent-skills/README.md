@@ -52,3 +52,12 @@ Source: [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills) �
 - `addy-osmani/test-driven-development` — use tests to define and verify expected behavior.
 
 These are instruction-only SKILL.md files; no scripts or external dependencies were imported. They were reviewed for obvious local file references before import. This is a static review, not a guarantee of safety or correctness.
+
+
+### Superpowers
+
+Source: [obra/superpowers](https://github.com/obra/superpowers) — MIT License (copy included at `superpowers/LICENSE`).
+
+- `superpowers/receiving-code-review` — evaluate review feedback against the actual codebase before implementing it; clarify ambiguity, test fixes individually, and push back with evidence when necessary.
+
+Only this self-contained skill was imported from Superpowers in this pass. Other candidates were excluded where they duplicated existing skills, depended on unimported supporting files, or imposed workflow gates that conflict with the repository's working principles. The source skill was reviewed statically; this is not a guarantee of safety or correctness.

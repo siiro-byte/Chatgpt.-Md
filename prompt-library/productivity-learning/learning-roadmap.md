@@ -1,34 +1,58 @@
 # Practical Learning Roadmap
 
 ## Purpose
-Build a realistic sequence of skills, practice tasks, resources, feedback loops and milestones around current level, goal and available time. Use retrieval practice, spaced review and real projects.
+Create a realistic, outcome-driven learning plan that moves a learner from their current capability to a defined level of performance through sequenced skills, deliberate practice, feedback and evidence of progress.
 
 ## When to use
-Use when this outcome is needed and the relevant context or source material is available.
+Use when learning a professional skill, technical subject, language, academic topic, creative discipline or practical capability.
 
 ## Required inputs
-- Objective and intended audience
-- Relevant context, constraints and source material
-- Desired format, scope and time horizon where applicable
+- Learning goal and intended real-world outcome
+- Current skill level and prior experience
+- Available time per week and target deadline
+- Preferred learning methods and accessibility needs
+- Budget and access to courses, tools, mentors or practice environments
+- Constraints, motivation and likely obstacles
 
 ## Instructions
-Act as a careful specialist for this task. Work only from the supplied facts and any sources explicitly available. Start by identifying the objective and constraints. Follow the task-specific direction in the purpose above. Make the result practical and structured. Clearly distinguish facts, assumptions, interpretations and unknowns. Ask one focused clarification only if a missing input materially prevents a reliable result; otherwise state a reasonable assumption and proceed. Do not invent evidence, sources, figures, quotations, dates or commitments. Prioritise the smallest useful answer and explain material limitations.
+1. Define the end goal as an observable capability or deliverable, not merely a topic to study.
+2. Assess the starting point using known experience or a short diagnostic task. Do not assume prior knowledge that has not been stated.
+3. Break the goal into prerequisite skills and learning outcomes. Sequence them from foundational to advanced and identify dependencies.
+4. Design a practical progression of modules or phases. For each, specify what to learn, why it matters, how to practise and what evidence demonstrates competence.
+5. Allocate the available study time realistically. Include learning, active practice, review, feedback and rest; do not overload the schedule.
+6. Choose a small number of high-quality resources matched to the learner's level, budget and preferred format. Explain why each resource is useful and flag any resource that needs current verification.
+7. Prioritise active retrieval, spaced review, worked examples, deliberate practice and progressively harder tasks over passive consumption.
+8. Include projects or realistic exercises that produce tangible evidence of skill. Define acceptance criteria or a rubric for each major milestone.
+9. Build feedback loops: self-assessment, peer review, mentor feedback, tests or real-world use. Explain how to respond to errors.
+10. Define weekly milestones and progress indicators. Distinguish activity metrics (hours, lessons completed) from capability evidence (tasks completed independently).
+11. Anticipate likely obstacles and provide fallback options for missed sessions, limited resources or slower progress.
+12. Reassess periodically and adapt the sequence based on demonstrated mastery rather than following dates rigidly.
 
 ## Expected output
-A structured, actionable result suited to the stated objective, with assumptions, evidence gaps and next steps made explicit.
+- Target capability and success definition
+- Starting-level assumptions or diagnostic
+- Skill map and prerequisite sequence
+- Phased roadmap with time allocation
+- Recommended resources and rationale
+- Practice tasks and portfolio/project milestones
+- Feedback and assessment methods
+- Weekly progress indicators
+- Risks, fallback plan and review points
 
 ## Quality checks
-- Accurate and relevant to the objective
-- Facts, assumptions and unknowns clearly separated
-- No fabricated evidence, sources or commitments
-- Practical recommendations with proportionate confidence
-- Clear structure and respect for privacy
+- Goal is observable and appropriately scoped
+- Sequence respects prerequisites
+- Workload fits available time
+- Practice and feedback are central
+- Resources fit learner level and constraints
+- Milestones measure capability, not just consumption
+- Progress can be adapted based on evidence
 
 ## Source
-Original prompt. Uses general prompt-design and structured-analysis practices; no upstream prompt text reproduced.
+Original prompt, informed by instructional design and evidence-based learning practices; no upstream prompt text reproduced.
 
 ## Testing notes
-Not yet tested. Record realistic test inputs, results, limitations and revisions before changing status.
+Not yet tested. Record realistic test inputs, expected outputs, observed results, defects and revisions before changing status.
 
 ## Status
 Draft

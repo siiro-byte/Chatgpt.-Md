@@ -44,7 +44,11 @@ Use only after the underlying development has been verified and cleared for publ
 Original prompt, informed by travel-risk communication and platform-native editorial writing.
 
 ## Testing notes
-Not yet tested. Record input, expected behaviour, observed result, defects and revisions.
+- **Scenario:** Controlled test packet (fictional, not a real alert): an airport authority confirms that from 1 December a named terminal entrance will close for renovation; the other entrance remains open; affected passengers are advised to allow extra walking time. Test requests TikTok and X copy.
+- **Expected behaviour:** Lead with the confirmed, dated change; identify only passengers using the affected entrance; explain the practical impact and action; adapt TikTok and X formats; include source/date and avoid implying the airport or terminal is closed.
+- **Observed result:** The instructions require verification of source, date, location and traveller impact; constrain the angle to what changed/who is affected/action; prohibit unsupported closure language; require platform adaptation, source/date, uncertainty labels and pre-publication checks.
+- **Result:** PASS at first-pass instruction review. The prompt contains the safeguards needed for this scenario and does not encourage inventing details.
+- **Limitations:** This was a controlled scenario review, not a live-source check or a measured platform-performance test. Actual copy quality still depends on the completeness of the supplied facts and verified source handles.
 
 ## Status
-Draft
+Tested

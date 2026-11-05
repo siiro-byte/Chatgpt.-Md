@@ -1,34 +1,60 @@
 # Market Validation Plan
 
 ## Purpose
-Identify riskiest assumptions and design low-cost tests with target participants, neutral questions, observable behaviour and pass/fail criteria. Prefer behavioural evidence over compliments.
+Determine whether a defined customer problem, proposed solution and commercial model have enough evidence to justify the next investment. Prioritise tests of the riskiest assumptions and observable customer behaviour over compliments or stated enthusiasm.
 
 ## When to use
-Use when this outcome is needed and the relevant context or source material is available.
+Use before building a product, entering a market, launching a new service, investing in inventory or scaling an offer whose demand or willingness to pay is uncertain.
 
 ## Required inputs
-- Objective and intended audience
-- Relevant context, constraints and source material
-- Desired format, scope and time horizon where applicable
+- Product/service concept and target market
+- Intended customer and use case
+- Problem statement and proposed solution
+- Current alternatives and known competitors
+- Critical assumptions about demand, usability, price and delivery
+- Available time, budget and access to potential participants
+- Existing customer, market or sales evidence
 
 ## Instructions
-Act as a careful specialist for this task. Work only from the supplied facts and any sources explicitly available. Start by identifying the objective and constraints. Follow the task-specific direction in the purpose above. Make the result practical and structured. Clearly distinguish facts, assumptions, interpretations and unknowns. Ask one focused clarification only if a missing input materially prevents a reliable result; otherwise state a reasonable assumption and proceed. Do not invent evidence, sources, figures, quotations, dates or commitments. Prioritise the smallest useful answer and explain material limitations.
+1. Define the decision to be made and the minimum evidence needed to proceed, revise, pause or stop.
+2. Describe the target customer and buying situation narrowly enough to recruit relevant participants. State exclusions and avoid convenience sampling where it would bias results.
+3. Break the concept into assumptions: problem severity/frequency, current workaround, solution desirability, usability, willingness to pay, purchase authority, channel access, delivery feasibility and repeat demand.
+4. Rank assumptions by uncertainty and consequence if false. Select the few riskiest assumptions to test first.
+5. Choose the cheapest credible method for each assumption: problem interviews, observation, landing-page demand test, prototype usability, concierge pilot, pre-order/deposit test or paid pilot. Explain what the method can and cannot prove.
+6. Recruit participants who match the target customer. Set a realistic sample rationale and record recruitment source, participant characteristics relevant to the use case and potential bias.
+7. Write neutral interview or test tasks. Ask about recent actual behaviour, existing spending, workarounds and decisions before presenting the proposed solution. Avoid leading questions and hypothetical “would you buy?” questions as sole evidence.
+8. Define observable measures and decision thresholds before testing. Examples include completed tasks, qualified sign-ups, deposits, paid pilots, repeat use or conversion from a relevant audience. Do not invent universal pass rates.
+9. Run a small pilot to check the test instrument and recruitment before expanding. Protect participant privacy and obtain appropriate consent.
+10. Analyse results against pre-set criteria. Separate direct observations, participant statements, interpretation and limitations. Record negative and contradictory evidence rather than explaining it away.
+11. Decide whether to proceed, iterate, test a different segment or stop. State exactly which assumptions gained or lost support and what remains unknown.
+12. Recommend the next smallest experiment and the evidence that would change the decision.
 
 ## Expected output
-A structured, actionable result suited to the stated objective, with assumptions, evidence gaps and next steps made explicit.
+- Validation decision and scope
+- Target customer and recruitment criteria
+- Assumption register ranked by risk
+- Test method matched to each priority assumption
+- Neutral interview guide or test protocol
+- Observable metrics and pre-set decision thresholds
+- Results summary with evidence and limitations
+- Proceed / iterate / pause / stop recommendation
+- Next experiment and required evidence
 
 ## Quality checks
-- Accurate and relevant to the objective
-- Facts, assumptions and unknowns clearly separated
-- No fabricated evidence, sources or commitments
-- Practical recommendations with proportionate confidence
-- Clear structure and respect for privacy
+- Tests address the riskiest assumptions first
+- Participants match the intended customer
+- Questions and tasks are neutral
+- Behavioural evidence is distinguished from opinions
+- Method limitations and sample bias are explicit
+- Thresholds are set before interpreting results
+- No market demand or willingness-to-pay claim exceeds the evidence
+- Participant privacy and consent are respected
 
 ## Source
-Original prompt. Uses general prompt-design and structured-analysis practices; no upstream prompt text reproduced.
+Original prompt, informed by customer discovery and lean market-validation practices; no upstream prompt text reproduced.
 
 ## Testing notes
-Not yet tested. Record realistic test inputs, results, limitations and revisions before changing status.
+Not yet tested. Record realistic test inputs, expected outputs, observed results, defects and revisions before changing status.
 
 ## Status
 Draft

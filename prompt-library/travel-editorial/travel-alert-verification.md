@@ -1,34 +1,52 @@
 # Travel Alert Verification
 
 ## Purpose
-Verify a travel development using official government advisories, border authorities, airport/airline operators, transport agencies and WHO/competent health bodies where relevant. Establish what, where, when, who is affected, current status and traveller actions. Separate publication date from event date. Label claims confirmed, partly confirmed, conflicting, unverified or stale. Never infer a ban or closure.
+Verify a travel development using primary authorities and produce a defensible traveller-facing assessment.
 
 ## When to use
-Use when this outcome is needed and the relevant context or source material is available.
+Use for reported safety incidents, border or airport closures, health alerts, weather disruption, transport interruptions, evacuation advice or official travel advisories.
 
 ## Required inputs
-- Objective and intended audience
-- Relevant context, constraints and source material
-- Desired format, scope and time horizon where applicable
+- Claim, report, URL or source material
+- Destination, route, facility or border point
+- Relevant event date and publication/update date, if known
+- Traveller group or nationality affected, if relevant
+- Intended output and deadline
 
 ## Instructions
-Act as a careful specialist for this task. Work only from the supplied facts and any sources explicitly available. Start by identifying the objective and constraints. Follow the task-specific direction in the purpose above. Make the result practical and structured. Clearly distinguish facts, assumptions, interpretations and unknowns. Ask one focused clarification only if a missing input materially prevents a reliable result; otherwise state a reasonable assumption and proceed. Do not invent evidence, sources, figures, quotations, dates or commitments. Prioritise the smallest useful answer and explain material limitations.
+1. Break the claim into atomic facts: what happened, exact location, start time, current status, affected people/routes and claimed consequences.
+2. Search for the issuing primary authority appropriate to the claim: government ministry or travel advisory, border/immigration authority, airport/airline/operator, police/emergency agency, meteorological agency, or WHO/competent public-health authority. Use reputable independent reporting as corroboration, not as a substitute for an available primary notice.
+3. Open sources and verify that they refer to the same place, event and time. Record issuer, exact title, publication date, last-updated date, event/effective date and URL. Do not confuse an advisory date with the event date.
+4. Classify each material claim as Confirmed, Partly confirmed, Conflicting, Unverified or Stale. Explain the evidence supporting the label. Absence of a notice is not proof that an event did not happen.
+5. Distinguish formal closure from temporary delay, restricted access, reduced service, warning, planned change or unconfirmed report. Never infer a ban, closure, casualty count or nationality restriction.
+6. Identify practical traveller consequences only where supported: affected routes, timing, eligibility, documents, rebooking, alternate crossings or official instructions. Do not give legal or medical certainty beyond the source.
+7. If evidence is inadequate, state exactly what remains unknown and name the authority/source needed to resolve it. Do not publish a definitive alert from an unverified claim.
+8. Provide a concise editorial recommendation: publish, hold pending verification, or do not use. Explain why.
 
 ## Expected output
-A structured, actionable result suited to the stated objective, with assumptions, evidence gaps and next steps made explicit.
+- **Headline / claim**
+- **Status:** one of the five labels above
+- **What is confirmed:** bullet facts
+- **What is not confirmed / conflicts:** explicit gaps
+- **Where and when:** exact location, event date, effective period and update date
+- **Who is affected:** only evidenced groups/routes
+- **Traveller impact and action:** practical, source-supported steps
+- **Sources:** issuer, title, date/update date and direct URL
+- **Editorial decision:** publish / hold / reject, with rationale
 
 ## Quality checks
-- Accurate and relevant to the objective
-- Facts, assumptions and unknowns clearly separated
-- No fabricated evidence, sources or commitments
-- Practical recommendations with proportionate confidence
-- Clear structure and respect for privacy
+- Primary authority checked where available
+- Dates and geography match the claim
+- Event date is distinct from publication/update date
+- No inferred closure, ban, casualty or traveller restriction
+- Confidence label matches evidence
+- Traveller actions are practical and source-supported
 
 ## Source
-Original prompt. Uses general prompt-design and structured-analysis practices; no upstream prompt text reproduced.
+Original prompt, informed by evidence-evaluation and travel-risk editorial practice.
 
 ## Testing notes
-Not yet tested. Record realistic test inputs, results, limitations and revisions before changing status.
+Not yet tested. Record input, expected behaviour, observed result, defects and revisions.
 
 ## Status
 Draft

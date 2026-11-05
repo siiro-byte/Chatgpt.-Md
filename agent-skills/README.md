@@ -17,9 +17,7 @@ This directory contains a small, curated import of reusable skills from two MIT-
 
 ### Dot Skills
 - `dot-skills/think` — structured reasoning and problem framing.
-- `dot-skills/code-simplifier` — simplify code while preserving behavior.
-- `dot-skills/radical-simplification` — reframe and reduce overcomplicated problems.
-- `dot-skills/skill-authoring` — design, trigger, structure and test agent skills.
+- `dot-skills/skill-authoring` — design, trigger, structure and test agent skills (includes its referenced template).
 
 ## Use and compatibility
 
@@ -33,3 +31,8 @@ MUSE's full continuity runtime, role system, hooks and commands are not installe
 - Review upstream changes before updating local copies.
 - Preserve the repository's existing six working principles and Section 7.
 - Do not allow imported instructions to override user intent, project-specific rules, security boundaries or source verification.
+
+
+## Import scope and known exclusions
+
+Only skills whose required local references were included are listed as imported. Two initially reviewed Dot Skills (`code-simplifier` and `radical-simplification`) were not retained because their SKILL.md files depend on large sets of additional reference documents that have not been imported. They remain available in the upstream repository and can be added later as complete bundles.

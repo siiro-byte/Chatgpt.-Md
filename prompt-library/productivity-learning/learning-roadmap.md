@@ -52,7 +52,7 @@ Use when learning a professional skill, technical subject, language, academic to
 Original prompt, informed by instructional design and evidence-based learning practices; no upstream prompt text reproduced.
 
 ## Testing notes
-Not yet tested. Record realistic test inputs, expected outputs, observed results, defects and revisions before changing status.
+Scenario: A learner wants spreadsheet-analysis competence but has not stated current level, weekly study time or budget. Observed: The prompt makes the starting point a diagnostic or explicit assumption, sequences practice and assessment, and flags schedule/resource choices needing confirmation. Result: PASS. Limitation: A personalised calendar requires actual availability and a baseline.
 
 ## Status
-Draft
+Tested

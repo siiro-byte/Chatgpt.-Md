@@ -60,7 +60,7 @@ Use when diagnosing a growth bottleneck, improving acquisition or conversion, te
 Original prompt, informed by experimentation and growth optimisation practices; no upstream prompt text reproduced.
 
 ## Testing notes
-Not yet tested. Record realistic test inputs, expected outputs, observed results, defects and revisions before changing status.
+Test input: Checkout abandonment is suspected but tracking is incomplete. Observed: the prompt makes instrumentation validation a prerequisite, defines a falsifiable checkout-friction hypothesis and requires guardrails and a decision rule. Result: PASS. Limitation: no causal conclusion is possible until adequate data is collected.
 
 ## Status
-Draft
+Tested

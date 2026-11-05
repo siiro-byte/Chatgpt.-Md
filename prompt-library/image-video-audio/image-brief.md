@@ -55,7 +55,7 @@ Use when planning an original image, campaign visual, editorial graphic, product
 Original prompt, informed by visual-communication and image-art-direction practices; no upstream prompt text reproduced.
 
 ## Testing notes
-Not yet tested. Record realistic test inputs, expected outputs, observed results, defects and revisions before changing status.
+Scenario: Prepare a square brand graphic using an exact supplied logo, black-and-ivory palette and fixed headline. Observed: The brief specifies hierarchy, composition, safe zones and exclusions; it preserves logo integrity and flags unreliable generated text for post-production. Result: PASS. Limitation: Actual logo fidelity requires inspection of the generated asset.
 
 ## Status
-Draft
+Tested

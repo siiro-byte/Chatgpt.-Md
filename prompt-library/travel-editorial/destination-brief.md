@@ -1,34 +1,50 @@
 # Destination Intelligence Brief
 
 ## Purpose
-Research current entry rules, official advisories, safety, health, weather/disruption and transport access for a destination, dates and traveller profile. Prioritise primary sources; state update dates, confidence and pre-departure actions.
+Prepare a current, source-led brief for a named destination and traveller profile.
 
 ## When to use
-Use when this outcome is needed and the relevant context or source material is available.
+Use for destination assessment before or during a trip.
 
 ## Required inputs
-- Objective and intended audience
-- Relevant context, constraints and source material
-- Desired format, scope and time horizon where applicable
+- Destination and travel dates
+- Traveller nationality/passport
+- Purpose, route and transit points
+- Source material and desired scope
 
 ## Instructions
-Act as a careful specialist for this task. Work only from the supplied facts and any sources explicitly available. Start by identifying the objective and constraints. Follow the task-specific direction in the purpose above. Make the result practical and structured. Clearly distinguish facts, assumptions, interpretations and unknowns. Ask one focused clarification only if a missing input materially prevents a reliable result; otherwise state a reasonable assumption and proceed. Do not invent evidence, sources, figures, quotations, dates or commitments. Prioritise the smallest useful answer and explain material limitations.
+1. Establish the traveller profile, dates and exact destination. Ask one clarification if nationality or dates materially change the answer.
+2. Verify entry rules through immigration, foreign ministry, embassy or official e-visa sources. Separate visa, passport validity, transit, permits and health requirements.
+3. Check government travel advisories and preserve their exact geographic scope and wording.
+4. Check relevant public-health authorities, including WHO where appropriate. Distinguish screening from mandatory requirements and advice.
+5. Check material weather, security, disaster and transport disruptions through responsible authorities and operators.
+6. For each claim record issuer, URL, publication/update date, event/effective date and confidence. Prefer primary sources.
+7. Explain implications for this traveller and list actions before departure, en route and on arrival.
+8. Exclude generic tourism description and stale facts. State what could not be verified.
 
 ## Expected output
-A structured, actionable result suited to the stated objective, with assumptions, evidence gaps and next steps made explicit.
+- Trip context and assumptions
+- Entry and documentation
+- Safety and official advisories
+- Health requirements and advice
+- Current disruptions and access
+- Traveller actions
+- Items to recheck and when
+- Dated source list with confidence labels
 
 ## Quality checks
-- Accurate and relevant to the objective
-- Facts, assumptions and unknowns clearly separated
-- No fabricated evidence, sources or commitments
-- Practical recommendations with proportionate confidence
-- Clear structure and respect for privacy
+- Nationality and dates considered
+- Official sources prioritised
+- Regional scope preserved
+- Advice distinguished from legal requirements
+- Time-sensitive claims dated
+- No unsupported reassurance
 
 ## Source
-Original prompt. Uses general prompt-design and structured-analysis practices; no upstream prompt text reproduced.
+Original prompt, informed by official destination-advisory practice.
 
 ## Testing notes
-Not yet tested. Record realistic test inputs, results, limitations and revisions before changing status.
+Not yet tested. Record input, expected behaviour, observed result, defects and revisions.
 
 ## Status
 Draft

@@ -48,7 +48,7 @@ Use when preparing a project brief, creative brief, task request, agency instruc
 Original prompt, informed by professional briefing and requirements-communication practices; no upstream prompt text reproduced.
 
 ## Testing notes
-Not yet tested. Record realistic test inputs, expected outputs, observed results, defects and revisions before changing status.
+Scenario: Notes say “launch the catalogue soon; include prices and delivery; ask design for artwork,” with no deadline, owner or acceptance criteria. Observed: The brief is structured; missing owner/deadline stay unspecified and proposed acceptance criteria are labelled. Result: PASS. Limitation: Finalisation needs clarification.
 
 ## Status
-Draft
+Tested

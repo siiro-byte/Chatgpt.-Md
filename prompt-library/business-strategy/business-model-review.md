@@ -1,34 +1,59 @@
 # Business Model Review
 
 ## Purpose
-Map customer, problem, value, channels, revenue, activities, partners and costs. Test consistency, margins, bottlenecks and assumptions; recommend evidence and three high-leverage changes.
+Evaluate how a business creates, delivers and captures value. Examine customer value, revenue logic, delivery model, cost structure, margins, dependencies and critical assumptions; recommend evidence-led improvements.
 
 ## When to use
-Use when this outcome is needed and the relevant context or source material is available.
+Use when assessing a new or existing business, reviewing a pivot, preparing a growth plan, diagnosing weak profitability or testing whether an offer can become commercially sustainable.
 
 ## Required inputs
-- Objective and intended audience
-- Relevant context, constraints and source material
-- Desired format, scope and time horizon where applicable
+- Business description, stage and strategic objective
+- Products/services, customer groups and use cases
+- Pricing, revenue streams and sales process
+- Delivery operations, people, assets, partners and channels
+- Cost structure and available financial data
+- Market, competitor and customer evidence
+- Constraints, risks and planning horizon
 
 ## Instructions
-Act as a careful specialist for this task. Work only from the supplied facts and any sources explicitly available. Start by identifying the objective and constraints. Follow the task-specific direction in the purpose above. Make the result practical and structured. Clearly distinguish facts, assumptions, interpretations and unknowns. Ask one focused clarification only if a missing input materially prevents a reliable result; otherwise state a reasonable assumption and proceed. Do not invent evidence, sources, figures, quotations, dates or commitments. Prioritise the smallest useful answer and explain material limitations.
+1. Clarify the decision: validate, improve, scale, reposition, pivot or discontinue. Define the scope and time horizon.
+2. Map the business model: customer segments, problems/jobs, value proposition, channels, customer relationships, revenue streams, key activities, resources, partners and cost structure.
+3. Trace the customer and value-delivery journey from awareness through purchase, fulfilment, support, repeat use and referral. Identify friction, hand-offs and failure points.
+4. Examine revenue logic by stream: payer, unit sold, price, frequency, volume driver, payment timing, discounts, refunds and concentration. Separate recurring from one-off revenue.
+5. Examine cost logic: fixed, variable, acquisition, fulfilment, servicing, overhead, working capital and partner costs. Identify costs that change with volume and costs that do not.
+6. Calculate unit economics only where inputs support it. Define the unit (customer, order, booking, subscription, project or other), contribution margin, acquisition cost, retention or repeat rate, payback and lifetime value assumptions. Show formulas and flag missing data.
+7. Test consistency between customer value, pricing, channel economics, delivery capacity and cost structure. Identify where growth could worsen losses or service quality.
+8. Assess defensibility and dependencies: customer switching costs, brand, data, network effects, proprietary capability, supplier concentration, platform dependence and regulatory exposure. Do not overstate a moat.
+9. Build an assumption register. For each critical assumption state evidence, uncertainty, impact if false and a practical validation method.
+10. Identify bottlenecks and rank improvement options by customer impact, economic potential, feasibility, time and risk.
+11. Recommend no more than three high-leverage changes. For each, state rationale, expected mechanism, resources, leading indicator and downside risk.
+12. State what cannot be concluded from the available evidence and what data would materially improve the review.
 
 ## Expected output
-A structured, actionable result suited to the stated objective, with assumptions, evidence gaps and next steps made explicit.
+- Executive assessment and decision context
+- Business model map
+- Customer/value-delivery journey
+- Revenue and cost logic
+- Unit economics with formulas and assumptions, where calculable
+- Bottlenecks, dependencies and risks
+- Critical assumption register and validation plan
+- Up to three prioritised recommendations
+- Data gaps and immediate next steps
 
 ## Quality checks
-- Accurate and relevant to the objective
-- Facts, assumptions and unknowns clearly separated
-- No fabricated evidence, sources or commitments
-- Practical recommendations with proportionate confidence
-- Clear structure and respect for privacy
+- Model components are connected, not treated as an isolated checklist
+- Revenue, cost and unit definitions are explicit
+- Calculations are reproducible and assumptions visible
+- No invented financial figures or unsupported market claims
+- Growth risks and operational capacity are considered
+- Recommendations are prioritised and testable
+- Facts, estimates and hypotheses are clearly distinguished
 
 ## Source
-Original prompt. Uses general prompt-design and structured-analysis practices; no upstream prompt text reproduced.
+Original prompt, informed by business model and commercial viability analysis; no upstream prompt text reproduced.
 
 ## Testing notes
-Not yet tested. Record realistic test inputs, results, limitations and revisions before changing status.
+Not yet tested. Record realistic test inputs, expected outputs, observed results, defects and revisions before changing status.
 
 ## Status
 Draft

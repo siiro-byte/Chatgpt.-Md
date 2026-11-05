@@ -56,7 +56,7 @@ Use when evaluating pricing, customer or order profitability, acquisition effici
 Original prompt, informed by management accounting and unit-economics analysis; no upstream prompt text reproduced.
 
 ## Testing notes
-Not yet tested. Record realistic test inputs, expected outputs, observed results, defects and revisions before changing status.
+Scenario: An online seller reports KES 2,000 revenue, KES 1,250 variable costs and KES 30,000 fixed costs, but no acquisition or repeat-purchase data. Observed: Contribution is KES 750 (37.5%); CAC and LTV are withheld; break-even is 40 orders only if costs are complete and compatible. Result: PASS. Limitation: Tax, refunds and omitted costs need confirmation.
 
 ## Status
-Draft
+Tested

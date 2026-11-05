@@ -55,7 +55,7 @@ Use when improving administrative processes, customer service, content productio
 Original prompt, informed by process improvement and workflow automation practices; no upstream prompt text reproduced.
 
 ## Testing notes
-Not yet tested. Record realistic test inputs, expected outputs, observed results, defects and revisions before changing status.
+Scenario: A weekly reporting process repeatedly copies spreadsheet data, but has no measured cycle-time or error-rate baseline. Observed: The prompt maps the current process first, separates observed duplication from assumed causes, recommends a small pilot and does not jump straight to automation. Result: PASS. Limitation: Benefits cannot be quantified until a baseline is measured.
 
 ## Status
-Draft
+Tested

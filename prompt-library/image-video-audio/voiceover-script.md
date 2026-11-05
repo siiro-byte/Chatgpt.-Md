@@ -50,7 +50,7 @@ Use for videos, explainers, advertisements, travel content, documentaries, prese
 Original prompt, informed by voiceover writing and audio production practices; no upstream prompt text reproduced.
 
 ## Testing notes
-Not yet tested. Record realistic test inputs, expected outputs, observed results, defects and revisions before changing status.
+Scenario: Write a 45-second narration from supplied facts containing a date, place name and qualification that an advisory applies only to some travellers. Observed: The prompt sets a realistic word budget, preserves the qualification and flags pronunciation for confirmation. Result: PASS. Limitation: Spoken timing and pronunciation require a recorded read-through.
 
 ## Status
-Draft
+Tested

@@ -1,34 +1,59 @@
 # Systematic Debugging
 
 ## Purpose
-Restate expected vs actual behaviour, list facts and unknowns, rank hypotheses and propose smallest safe tests. Change one variable at a time; never claim a fix without verification.
+Diagnose software defects through evidence-led hypothesis testing. Reproduce the issue, isolate its cause, apply the smallest safe correction and verify the result without claiming a fix that has not been tested.
 
 ## When to use
-Use when this outcome is needed and the relevant context or source material is available.
+Use for errors, crashes, incorrect output, performance regressions, integration failures, intermittent behaviour, deployment problems and unexpected system behaviour.
 
 ## Required inputs
-- Objective and intended audience
-- Relevant context, constraints and source material
-- Desired format, scope and time horizon where applicable
+- Expected and actual behaviour
+- Exact error messages, logs or screenshots
+- Steps to reproduce and frequency
+- Relevant code, configuration and recent changes
+- Runtime, environment and dependency versions
+- Tests already performed and their results
+- Impact, urgency and rollback constraints
 
 ## Instructions
-Act as a careful specialist for this task. Work only from the supplied facts and any sources explicitly available. Start by identifying the objective and constraints. Follow the task-specific direction in the purpose above. Make the result practical and structured. Clearly distinguish facts, assumptions, interpretations and unknowns. Ask one focused clarification only if a missing input materially prevents a reliable result; otherwise state a reasonable assumption and proceed. Do not invent evidence, sources, figures, quotations, dates or commitments. Prioritise the smallest useful answer and explain material limitations.
+1. Restate the defect as expected behaviour versus observed behaviour. Identify affected users, environment, scope and severity.
+2. Gather reproducible evidence: exact steps, inputs, outputs, logs, timestamps, versions and environmental conditions. Separate observations from interpretations.
+3. Check whether the issue is reproducible. If intermittent, identify frequency, triggering conditions and what evidence is available when it occurs.
+4. Establish a baseline and inspect recent changes, dependencies, configuration, data changes and external service status that could plausibly explain the regression.
+5. Trace the failing path from input through relevant components to the observed output. Identify the earliest point where actual behaviour diverges from expected behaviour.
+6. Generate a short ranked list of hypotheses. For each, state supporting evidence, contradicting evidence and a test that would distinguish it from alternatives.
+7. Design the smallest safe diagnostic test. Change one variable at a time, preserve the original state and avoid destructive actions in production.
+8. Run or propose targeted tests for the suspected cause. Clearly distinguish tests actually executed from commands the user should run.
+9. Identify root cause only when evidence supports it. If not proven, label it the leading hypothesis and state what would confirm it.
+10. Propose the minimal correction and explain why it addresses the cause rather than masking the symptom. Consider regression and security implications.
+11. Define verification: reproduce the original failure, run relevant unit/integration/regression tests and check adjacent behaviour.
+12. Provide rollback or mitigation steps for high-impact changes. Record remaining uncertainty and monitoring needed after deployment.
 
 ## Expected output
-A structured, actionable result suited to the stated objective, with assumptions, evidence gaps and next steps made explicit.
+- Defect statement and impact
+- Reproduction steps and environment
+- Evidence collected and timeline
+- Ranked hypotheses with discriminating tests
+- Root cause or current leading hypothesis
+- Minimal fix or safe next diagnostic step
+- Verification plan and actual test results
+- Rollback/mitigation and remaining risks
 
 ## Quality checks
-- Accurate and relevant to the objective
-- Facts, assumptions and unknowns clearly separated
-- No fabricated evidence, sources or commitments
-- Practical recommendations with proportionate confidence
-- Clear structure and respect for privacy
+- Expected and actual behaviour are precise
+- Evidence is separated from assumptions
+- Tests isolate hypotheses and avoid unnecessary changes
+- Root cause is not asserted prematurely
+- Production safety and data preservation are considered
+- Fix is verified against the original reproduction
+- Tests run versus tests proposed are explicit
+- Remaining uncertainty and rollback needs are stated
 
 ## Source
-Original prompt. Uses general prompt-design and structured-analysis practices; no upstream prompt text reproduced.
+Original prompt, informed by scientific debugging and software incident diagnosis practices; no upstream prompt text reproduced.
 
 ## Testing notes
-Not yet tested. Record realistic test inputs, results, limitations and revisions before changing status.
+Not yet tested. Record realistic test inputs, expected outputs, observed results, defects and revisions before changing status.
 
 ## Status
 Draft

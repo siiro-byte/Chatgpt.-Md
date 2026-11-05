@@ -46,7 +46,7 @@ Use for reported safety incidents, border or airport closures, health alerts, we
 Original prompt, informed by evidence-evaluation and travel-risk editorial practice.
 
 ## Testing notes
-Not yet tested. Record input, expected behaviour, observed result, defects and revisions.
+Test input: An unsourced social post claims a named land crossing is closed today. Observed: the prompt decomposes the claim, seeks the responsible border authority, separates event/update dates and requires Unverified/Hold if evidence is absent. Result: PASS. Limitation: actual current verification requires live source checks.
 
 ## Status
-Draft
+Tested

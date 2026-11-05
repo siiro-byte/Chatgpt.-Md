@@ -76,3 +76,7 @@ Governing principle: Evidence before interpretation. Verification before conclus
 Important Limitation
 
 These instructions influence ChatGPT only when provided in the conversation or added to applicable Project or Custom Instructions. Storing this file in GitHub does not automatically connect it to ChatGPT or install a plugin.
+
+## External Agent Skills
+
+A curated collection of MIT-licensed skills from [MUSE](https://github.com/myths-labs/muse) and [Dot Skills](https://github.com/pproenca/dot-skills) is available in [`agent-skills/`](agent-skills/README.md). These are supplemental references for compatible agent clients; GitHub storage does not automatically activate them in ChatGPT.

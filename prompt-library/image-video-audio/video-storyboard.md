@@ -1,34 +1,59 @@
 # Short-Form Video Storyboard
 
 ## Purpose
-Create a timed vertical storyboard with visual, on-screen text, voiceover, transition and purpose per scene. Hook quickly, keep one coherent idea and captions readable; include production checklist.
+Create a production-ready storyboard for a short-form video with a clear narrative arc, timed scenes, visual direction, on-screen text, voiceover, sound and editing instructions.
 
 ## When to use
-Use when this outcome is needed and the relevant context or source material is available.
+Use for TikTok, Instagram Reels, YouTube Shorts, promotional clips, explainers, travel videos, product demonstrations and other short vertical or horizontal videos.
 
 ## Required inputs
-- Objective and intended audience
-- Relevant context, constraints and source material
-- Desired format, scope and time horizon where applicable
+- Video objective and target audience
+- Platform, aspect ratio and target duration
+- Core idea, facts or source material
+- Available footage, images, people, locations and equipment
+- Brand style, logo and required text
+- Voiceover or presenter preference
+- Desired tone, pace, music/sound constraints and call to action
 
 ## Instructions
-Act as a careful specialist for this task. Work only from the supplied facts and any sources explicitly available. Start by identifying the objective and constraints. Follow the task-specific direction in the purpose above. Make the result practical and structured. Clearly distinguish facts, assumptions, interpretations and unknowns. Ask one focused clarification only if a missing input materially prevents a reliable result; otherwise state a reasonable assumption and proceed. Do not invent evidence, sources, figures, quotations, dates or commitments. Prioritise the smallest useful answer and explain material limitations.
+1. Define the video's single primary message and intended audience action. Avoid trying to communicate several unrelated ideas in one short video.
+2. Choose a narrative structure suited to the material: hook → context → development → payoff → action, or another justified sequence.
+3. Set target duration and allocate time by scene. Ensure the opening establishes relevance immediately without misleading clickbait.
+4. Create a scene-by-scene storyboard. For each scene specify timestamp/duration, shot type, subject/action, location/background, camera movement, on-screen text, voiceover, sound/music, transition and editorial purpose.
+5. Match visuals to the spoken message. Do not use decorative footage that implies an event, location or fact not supported by the source.
+6. Write concise voiceover in natural spoken language. Estimate speaking time realistically and leave room for pauses and visual comprehension.
+7. Keep on-screen text short, high contrast and readable on a phone. Avoid duplicating every spoken word; highlight names, dates, locations and key actions.
+8. Design for platform interface overlays and safe zones. Specify framing and text placement so captions, logos and important subjects are not obscured.
+9. Include a source/attribution scene or caption where factual claims, news or third-party material require it. Flag permissions and licensing needs.
+10. Specify sound design and transitions only where they support pacing or meaning. Do not rely on copyrighted music without appropriate rights.
+11. Provide a production plan distinguishing footage already available from shots that must be captured or created.
+12. Review the storyboard for continuity, pacing, accessibility, factual accuracy and a clear ending. Offer a simpler fallback if production resources are limited.
 
 ## Expected output
-A structured, actionable result suited to the stated objective, with assumptions, evidence gaps and next steps made explicit.
+- Creative concept and one-sentence message
+- Platform, aspect ratio and target duration
+- Timed scene-by-scene storyboard
+- Voiceover script and on-screen text
+- Shot/asset list and production requirements
+- Sound, transitions and editing notes
+- Source/rights/attribution notes
+- Final production and quality checklist
 
 ## Quality checks
-- Accurate and relevant to the objective
-- Facts, assumptions and unknowns clearly separated
-- No fabricated evidence, sources or commitments
-- Practical recommendations with proportionate confidence
-- Clear structure and respect for privacy
+- Opening hook is relevant and accurate
+- One coherent idea and clear narrative payoff
+- Scene timings fit the total duration
+- Voiceover is natural and fits the available time
+- Text is readable on mobile and safe from interface overlays
+- Visuals do not imply unsupported facts
+- Rights, sources and accessibility are considered
+- Final action or ending is clear
 
 ## Source
-Original prompt. Uses general prompt-design and structured-analysis practices; no upstream prompt text reproduced.
+Original prompt, informed by short-form video storytelling and production planning; no upstream prompt text reproduced.
 
 ## Testing notes
-Not yet tested. Record realistic test inputs, results, limitations and revisions before changing status.
+Not yet tested. Record realistic test inputs, expected outputs, observed results, defects and revisions before changing status.
 
 ## Status
 Draft

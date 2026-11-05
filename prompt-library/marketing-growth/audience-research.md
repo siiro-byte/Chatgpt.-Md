@@ -50,7 +50,7 @@ Use before defining campaign audiences, refining an offer, developing messaging,
 Original prompt, informed by customer research and audience-insight practices; no upstream prompt text reproduced.
 
 ## Testing notes
-Not yet tested. Record realistic test inputs, expected outputs, observed results, defects and revisions before changing status.
+Test input: Eight convenience-sampled customer interviews with mixed preferences. Observed: the prompt records sample bias, separates observed behaviour from stated preference, avoids invented quotations and identifies evidence gaps. Result: PASS. Limitation: a small sample cannot support market-wide prevalence claims.
 
 ## Status
-Draft
+Tested

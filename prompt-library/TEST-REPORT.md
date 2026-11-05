@@ -3,7 +3,7 @@
 **Test date:** 2026-11-05  
 **Repository:** https://github.com/siiro-byte/Chatgpt.-Md  
 **Scope:** 29 rewritten prompts across seven specialist categories  
-**Current result:** IN PROGRESS — 10 of 29 scenario tests recorded as passed
+**Current result:** IN PROGRESS — 11 of 29 scenario tests recorded as passed
 
 ## Test method and limitations
 
@@ -23,12 +23,13 @@ Each recorded test uses a realistic, controlled scenario to check whether the pr
 | Travel — Aviation & Transport Update | One flight delayed; no evidence of wider disruption | Limits scope to the service, checks operator/airport evidence and avoids generalising | PASS |
 | Travel — Traveller-First Social Post | Confirmed terminal entrance closure for renovation; other entrance remains open | Produces a scoped, dated, platform-adapted message; identifies affected passengers and action; avoids implying wider airport closure | PASS |
 | Business — Business Model Review | Small made-to-order furniture studio with missing acquisition and repeat-purchase data | Connects customer, delivery, revenue and cost logic; flags missing metrics; avoids invented financials and tests scale against capacity | PASS |
+| Business — Market Validation Plan | Founder considers an airport-transfer app based only on positive comments from friends | Prioritises risky assumptions and low-cost behavioural tests; distinguishes compliments from evidence of demand | PASS |
 
 ## Remaining tests
 
-The following 19 prompts still require a recorded scenario test:
+The following 18 prompts still require a recorded scenario test:
 
-- Business & Strategy: Market Validation Plan; Strategic Options Memo; Unit Economics Review
+- Business & Strategy: Strategic Options Memo; Unit Economics Review
 - Writing & Communication: Clear Brief Writer; Editorial Rewrite & Polish; Professional Email Drafter; Stakeholder Update & Memo
 - Image, Video & Audio: Image Generation Brief; Short-Form Video Storyboard; Voiceover Script & Audio Direction; Creative Asset Quality Review
 - Coding & Technology: Technical Requirements Clarifier; Code Review & Risk Audit; Systematic Debugging; Practical Solution Architecture
@@ -44,4 +45,4 @@ No blocking defect was identified in the eight recorded scenario tests. This is 
 - **Tested:** at least one realistic scenario has been run and its outcome and limitations recorded.
 - **Approved:** separately reviewed after testing; no prompt is approved by this report.
 
-**Current prompt status:** 10 prompts marked Tested; 19 remain Draft. No prompt is Approved.
+**Current prompt status:** 11 prompts marked Tested; 18 remain Draft. No prompt is Approved.

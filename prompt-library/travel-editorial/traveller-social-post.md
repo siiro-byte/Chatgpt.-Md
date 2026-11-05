@@ -1,34 +1,50 @@
 # Traveller-First Social Post
 
 ## Purpose
-Turn verified facts into a factual hook, what changed, why it matters and one practical action. Provide short TikTok and X versions, source line and relevant tags/hashtags. Keep urgency proportional to evidence.
+Turn verified travel information into concise, platform-native copy without sacrificing accuracy or traveller relevance.
 
 ## When to use
-Use when this outcome is needed and the relevant context or source material is available.
+Use only after the underlying development has been verified and cleared for publication.
 
 ## Required inputs
-- Objective and intended audience
-- Relevant context, constraints and source material
-- Desired format, scope and time horizon where applicable
+- Verified facts and source links
+- Confidence/status label and event/update dates
+- Affected destination, route or traveller group
+- Practical action for travellers
+- Platform, target length and brand voice
+- Required tags, hashtags or brand assets
 
 ## Instructions
-Act as a careful specialist for this task. Work only from the supplied facts and any sources explicitly available. Start by identifying the objective and constraints. Follow the task-specific direction in the purpose above. Make the result practical and structured. Clearly distinguish facts, assumptions, interpretations and unknowns. Ask one focused clarification only if a missing input materially prevents a reliable result; otherwise state a reasonable assumption and proceed. Do not invent evidence, sources, figures, quotations, dates or commitments. Prioritise the smallest useful answer and explain material limitations.
+1. Check that the source, date, location, current status and traveller impact are known. If essential facts are missing or disputed, do not write a definitive alert.
+2. Select one strong angle: what changed, who is affected and what action follows.
+3. Write a factual hook. Avoid clickbait, exaggerated urgency or unsupported terms such as ban, closed, crisis or all flights.
+4. Explain the change and why it matters in plain language. Give one or two specific actions rather than generic advice.
+5. Adapt copy to each platform. X should lead with the key fact and stay concise. TikTok should read naturally aloud, with a clear hook, context and action.
+6. Include a source line and date. Add only relevant hashtags and verified authority handles; never guess official usernames.
+7. Make uncertainty prominent when a claim is partly confirmed, conflicting or unverified.
+8. Finish with pre-publication checks for facts that may change.
 
 ## Expected output
-A structured, actionable result suited to the stated objective, with assumptions, evidence gaps and next steps made explicit.
+- Editorial angle
+- TikTok script/caption
+- X post
+- Optional expanded X version if requested
+- Source line, verified tags and relevant hashtags
+- Pre-publication checks and caveats
 
 ## Quality checks
-- Accurate and relevant to the objective
-- Facts, assumptions and unknowns clearly separated
-- No fabricated evidence, sources or commitments
-- Practical recommendations with proportionate confidence
-- Clear structure and respect for privacy
+- Every factual statement traces to evidence
+- Hook does not exaggerate
+- Traveller impact and action are clear
+- Source and date included
+- Platform versions are adapted
+- Uncertainty is visible
 
 ## Source
-Original prompt. Uses general prompt-design and structured-analysis practices; no upstream prompt text reproduced.
+Original prompt, informed by travel-risk communication and platform-native editorial writing.
 
 ## Testing notes
-Not yet tested. Record realistic test inputs, results, limitations and revisions before changing status.
+Not yet tested. Record input, expected behaviour, observed result, defects and revisions.
 
 ## Status
 Draft

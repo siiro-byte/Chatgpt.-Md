@@ -79,4 +79,4 @@ These instructions influence ChatGPT only when provided in the conversation or a
 
 ## External Agent Skills
 
-A curated collection of MIT-licensed skills from [MUSE](https://github.com/myths-labs/muse), [Dot Skills](https://github.com/pproenca/dot-skills), and [Addy Osmani's Agent Skills](https://github.com/addyosmani/agent-skills) is available in [`agent-skills/`](agent-skills/README.md). These are supplemental references for compatible agent clients; GitHub storage does not automatically activate them in ChatGPT.
+A curated collection of MIT-licensed skills from [MUSE](https://github.com/myths-labs/muse), [Dot Skills](https://github.com/pproenca/dot-skills), , [Addy Osmani's Agent Skills](https://github.com/addyosmani/agent-skills), and [obra/Superpowers](https://github.com/obra/superpowers) is available in [`agent-skills/`](agent-skills/README.md). These are supplemental references for compatible agent clients; GitHub storage does not automatically activate them in ChatGPT.

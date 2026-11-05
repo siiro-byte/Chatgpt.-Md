@@ -36,3 +36,19 @@ MUSE's full continuity runtime, role system, hooks and commands are not installe
 ## Import scope and known exclusions
 
 Only skills whose required local references were included are listed as imported. Two initially reviewed Dot Skills (`code-simplifier` and `radical-simplification`) were not retained because their SKILL.md files depend on large sets of additional reference documents that have not been imported. They remain available in the upstream repository and can be added later as complete bundles.
+
+
+### Addy Osmani Agent Skills
+
+Source: [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills) — MIT License (copy included at `addy-osmani/LICENSE`).
+
+- `addy-osmani/context-engineering` — manage context deliberately and keep task-relevant information available.
+- `addy-osmani/planning-and-task-breakdown` — turn goals into sequenced, verifiable tasks.
+- `addy-osmani/source-driven-development` — ground implementation in the actual codebase and authoritative sources.
+- `addy-osmani/doubt-driven-development` — challenge assumptions and test uncertain claims.
+- `addy-osmani/interview-me` — clarify requirements through focused questions.
+- `addy-osmani/shipping-and-launch` — prepare changes for release and verify readiness.
+- `addy-osmani/code-review-and-quality` — review changes for correctness and maintainability.
+- `addy-osmani/test-driven-development` — use tests to define and verify expected behavior.
+
+These are instruction-only SKILL.md files; no scripts or external dependencies were imported. They were reviewed for obvious local file references before import. This is a static review, not a guarantee of safety or correctness.

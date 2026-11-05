@@ -53,7 +53,11 @@ Use when assessing a new or existing business, reviewing a pivot, preparing a gr
 Original prompt, informed by business model and commercial viability analysis; no upstream prompt text reproduced.
 
 ## Testing notes
-Not yet tested. Record realistic test inputs, expected outputs, observed results, defects and revisions before changing status.
+- Scenario: A small made-to-order furniture studio has project-based sales, variable material and delivery costs, fixed rent, and no reliable customer-acquisition or repeat-purchase data. The owner asks whether to scale.
+- Expected behaviour: Connect customer value, delivery, revenue and cost logic; define the unit before calculating economics; flag missing data; assess capacity and avoid unsupported financial claims.
+- Observed behaviour: The prompt explicitly requires these analyses, reproducible formulas, an assumption register and prioritised validation methods. It prohibits invented figures and considers whether growth could worsen losses or service quality.
+- Result: PASS in this first-pass scenario review.
+- Limitations: No real accounts or customer records were analysed; live financial calculations remain untested.
 
 ## Status
-Draft
+Tested

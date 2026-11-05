@@ -1,34 +1,56 @@
 # Audience Intelligence
 
 ## Purpose
-Analyse supplied customer evidence for jobs, motivations, objections, language and trust signals. Do not invent quotes or overgeneralise small samples.
+Analyse customer and audience evidence to identify priority segments, needs, behaviours, decision criteria, objections and language that can inform product, marketing and communication decisions.
 
 ## When to use
-Use when this outcome is needed and the relevant context or source material is available.
+Use before defining campaign audiences, refining an offer, developing messaging, prioritising customer segments or investigating why an audience is not responding.
 
 ## Required inputs
-- Objective and intended audience
-- Relevant context, constraints and source material
-- Desired format, scope and time horizon where applicable
+- Research objective and decision to be informed
+- Product, service, brand or topic being studied
+- Target market and geographic scope
+- Available evidence: interviews, surveys, analytics, reviews, support logs, sales notes or public research
+- Sample size, collection dates and recruitment method where known
+- Constraints, privacy requirements and desired output
 
 ## Instructions
-Act as a careful specialist for this task. Work only from the supplied facts and any sources explicitly available. Start by identifying the objective and constraints. Follow the task-specific direction in the purpose above. Make the result practical and structured. Clearly distinguish facts, assumptions, interpretations and unknowns. Ask one focused clarification only if a missing input materially prevents a reliable result; otherwise state a reasonable assumption and proceed. Do not invent evidence, sources, figures, quotations, dates or commitments. Prioritise the smallest useful answer and explain material limitations.
+1. Define the decision first. Turn the request into specific research questions and identify what the research must help the team decide.
+2. Inventory the evidence. Record source type, date, sample size, collection method, audience represented and known limitations. Separate primary research from secondary sources.
+3. Assess representativeness and bias. Identify who is missing, self-selection effects, small samples, leading questions, outdated data and channel-specific bias. Do not treat a convenience sample as the whole market.
+4. Segment using meaningful differences in needs, behaviour, context, value sought or buying stage. Avoid creating segments based only on broad demographics unless the evidence shows those differences matter.
+5. For each supported segment, describe its context, job to be done, pain points, desired outcome, triggers, barriers, alternatives, decision criteria and information sources.
+6. Extract audience language from the evidence. Use exact quotations only when supplied and attributable to a source; otherwise paraphrase and label it. Never fabricate testimonials or verbatim quotes.
+7. Compare patterns across sources. Mark each finding as strong, tentative or contradictory, and show which evidence supports it. Keep observed behaviour distinct from stated preference.
+8. Identify unmet needs, trust signals, objections and friction points relevant to the stated decision. Do not infer sensitive personal traits.
+9. Convert findings into implications for product, positioning, content, channel and customer experience. Tie each recommendation to a finding and state the confidence level.
+10. List unanswered questions and propose the smallest next research step, including method, target participants, sample considerations and what result would change the decision.
 
 ## Expected output
-A structured, actionable result suited to the stated objective, with assumptions, evidence gaps and next steps made explicit.
+- Research objective and decision
+- Evidence inventory and limitations
+- Supported audience segments
+- Segment profiles: context, needs, jobs, triggers, barriers and decision criteria
+- Key themes with supporting evidence
+- Audience language and carefully attributed quotations, if available
+- Contradictions, unknowns and confidence levels
+- Practical implications and prioritised recommendations
+- Follow-up research plan
 
 ## Quality checks
-- Accurate and relevant to the objective
-- Facts, assumptions and unknowns clearly separated
-- No fabricated evidence, sources or commitments
-- Practical recommendations with proportionate confidence
-- Clear structure and respect for privacy
+- Findings trace to supplied or cited evidence
+- Sample limitations and bias are explicit
+- Segments reflect meaningful needs or behaviours
+- Quotes are exact and attributable; no invented voice-of-customer material
+- Observations, interpretations and hypotheses are separated
+- Recommendations answer the original decision
+- Personal and sensitive information is handled carefully
 
 ## Source
-Original prompt. Uses general prompt-design and structured-analysis practices; no upstream prompt text reproduced.
+Original prompt, informed by customer research and audience-insight practices; no upstream prompt text reproduced.
 
 ## Testing notes
-Not yet tested. Record realistic test inputs, results, limitations and revisions before changing status.
+Not yet tested. Record realistic test inputs, expected outputs, observed results, defects and revisions before changing status.
 
 ## Status
 Draft

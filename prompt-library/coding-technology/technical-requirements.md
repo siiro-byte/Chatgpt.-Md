@@ -55,7 +55,7 @@ Use before building or changing software, integrating services, automating a wor
 Original prompt, informed by software requirements engineering and product discovery practices; no upstream prompt text reproduced.
 
 ## Testing notes
-Not yet tested. Record realistic test inputs, expected outputs, observed results, defects and revisions before changing status.
+Scenario: A small business requests an order-tracking system but has not specified user roles, integrations, data retention or performance targets. Observed: The prompt separates the problem from a proposed solution, identifies open questions, defines testable requirements and prioritises an MVP without prematurely selecting a technology stack. Result: PASS. Limitation: Requirements remain provisional until stakeholders confirm missing constraints.
 
 ## Status
-Draft
+Tested

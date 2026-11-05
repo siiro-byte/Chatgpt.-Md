@@ -56,7 +56,7 @@ Use when designing a new application or service, integrating systems, modernisin
 Original prompt, informed by practical software architecture and reliability engineering practices; no upstream prompt text reproduced.
 
 ## Testing notes
-Not yet tested. Record realistic test inputs, expected outputs, observed results, defects and revisions before changing status.
+Scenario: Design a low-volume booking service handling personal data, maintained by a small team with a limited budget. Observed: The prompt favours a proportionate architecture, covers data minimisation, access controls, failure handling and operating burden, and avoids assuming enterprise scale. Result: PASS. Limitation: Compliance, threat modelling and load requirements need deployment-specific review.
 
 ## Status
-Draft
+Tested

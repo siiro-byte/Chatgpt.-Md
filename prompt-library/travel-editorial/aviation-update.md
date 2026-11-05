@@ -43,7 +43,7 @@ Use for delays, cancellations, diversions, suspensions, route launches, schedule
 Original prompt, informed by aviation operations reporting.
 
 ## Testing notes
-Not yet tested. Record input, expected behaviour, observed result, defects and revisions.
+Scenario: One flight is delayed, with no evidence of wider disruption. Observed: the prompt keeps scope to that service, checks operator/airport sources and avoids generalising. Result: PASS. Live status was not checked.
 
 ## Status
-Draft
+Tested

@@ -37,7 +37,7 @@ The following 18 prompts still require a recorded scenario test:
 
 ## Defects and follow-up
 
-No blocking defect was identified in the eight recorded scenario tests. This is not evidence that no defects exist in the untested prompts. The remaining tests must probe missing inputs, edge cases, output usefulness and task-specific safeguards. Any prompt that fails should remain Draft and receive a targeted correction followed by a retest.
+No blocking defect was identified in the eleven recorded scenario tests. This is not evidence that no defects exist in the untested prompts. The remaining tests must probe missing inputs, edge cases, output usefulness and task-specific safeguards. Any prompt that fails should remain Draft and receive a targeted correction followed by a retest.
 
 ## Status policy
 

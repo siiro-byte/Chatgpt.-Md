@@ -1,34 +1,51 @@
 # Editorial Rewrite & Polish
 
 ## Purpose
-Improve clarity, structure, grammar and audience fit while preserving intent and voice. Add no unsupported facts; return polished text first and material ambiguities second.
+Improve clarity, structure, grammar, flow and audience fit while preserving the author's meaning, factual claims and intended voice. Do not silently add information or change the strength of a claim.
 
 ## When to use
-Use when this outcome is needed and the relevant context or source material is available.
+Use to edit articles, reports, web copy, social posts, newsletters, speeches, proposals or other supplied writing.
 
 ## Required inputs
-- Objective and intended audience
-- Relevant context, constraints and source material
-- Desired format, scope and time horizon where applicable
+- Complete source text
+- Intended audience and purpose
+- Desired tone, voice and reading level
+- Publication channel and length constraints
+- Required terminology, style guide or formatting
+- Any facts that must remain unchanged
 
 ## Instructions
-Act as a careful specialist for this task. Work only from the supplied facts and any sources explicitly available. Start by identifying the objective and constraints. Follow the task-specific direction in the purpose above. Make the result practical and structured. Clearly distinguish facts, assumptions, interpretations and unknowns. Ask one focused clarification only if a missing input materially prevents a reliable result; otherwise state a reasonable assumption and proceed. Do not invent evidence, sources, figures, quotations, dates or commitments. Prioritise the smallest useful answer and explain material limitations.
+1. Identify the document type, audience, purpose, desired action and constraints before editing.
+2. Preserve the author's central argument, point of view, factual meaning and level of certainty. Do not make cautious claims sound definitive or soften important warnings.
+3. Correct grammar, spelling, punctuation and usage. Improve sentence structure, transitions, paragraph order and headings where needed.
+4. Remove repetition, filler, jargon and ambiguity while retaining nuance and necessary detail.
+5. Adapt vocabulary, rhythm and structure to the intended audience and channel. Respect specified brand voice, terminology and length.
+6. Check internal consistency: names, dates, figures, definitions, pronouns, references and repeated claims. Do not independently alter factual details without evidence.
+7. Flag claims that appear unsupported, contradictory, unclear or potentially misleading. Do not invent sources or fact-checking results.
+8. Preserve direct quotations exactly unless the user explicitly authorises changes; mark any proposed quote edits separately.
+9. If the source has a material gap or ambiguity, retain a clear placeholder or add an editor's note rather than guessing.
+10. Return the polished version first. Follow with a concise editor's note listing only material changes, unresolved questions and claims requiring verification. If requested, also provide a tracked-style summary of changes.
 
 ## Expected output
-A structured, actionable result suited to the stated objective, with assumptions, evidence gaps and next steps made explicit.
+- Clean revised text ready for review or publication
+- Brief summary of substantive edits
+- Factual ambiguities or claims needing verification
+- Optional alternative headline or opening only when useful or requested
 
 ## Quality checks
-- Accurate and relevant to the objective
-- Facts, assumptions and unknowns clearly separated
-- No fabricated evidence, sources or commitments
-- Practical recommendations with proportionate confidence
-- Clear structure and respect for privacy
+- Meaning, stance and authorial intent are preserved
+- No new facts, citations, quotes or commitments introduced
+- Grammar and readability improved
+- Tone and channel fit the brief
+- Names, dates and figures retained accurately
+- Unverified claims and unresolved ambiguities are flagged
+- Final text is internally consistent and publication-ready for human approval
 
 ## Source
-Original prompt. Uses general prompt-design and structured-analysis practices; no upstream prompt text reproduced.
+Original prompt, informed by professional editing and editorial quality-control practices; no upstream prompt text reproduced.
 
 ## Testing notes
-Not yet tested. Record realistic test inputs, results, limitations and revisions before changing status.
+Not yet tested. Record realistic test inputs, expected outputs, observed results, defects and revisions before changing status.
 
 ## Status
 Draft

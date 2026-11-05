@@ -2,74 +2,45 @@
 
 **Test date:** 2026-11-05  
 **Repository:** https://github.com/siiro-byte/Chatgpt.-Md  
-**Commit under test:** aa7fde763f7bd7659ab8e44c448d41cce175f36b  
-**Overall result:** NOT PASSED — remediation required
+**Scope:** 29 rewritten prompts across seven specialist categories  
+**Current result:** IN PROGRESS — 8 of 29 scenario tests recorded as passed
 
-## Scope
+## Test method and limitations
 
-The library currently contains eight categories and 38 canonical prompt files:
-- Research & Intelligence: 9 existing prompts
-- Marketing & Growth: 4
-- Travel Editorial: 5
-- Business & Strategy: 4
-- Writing & Communication: 4
-- Image, Video & Audio: 4
-- Coding & Technology: 4
-- Productivity & Learning: 4
+Each recorded test uses a realistic, controlled scenario to check whether the prompt directs the assistant to produce the intended task-specific output, respects missing information and avoids unsupported claims. These are first-pass scenario tests, not independent user studies or cross-model benchmarks. No external systems, live travel-status sources, production accounts or customer datasets were accessed. A PASS means the prompt's instructions handled the scenario correctly at this level; it does not establish universal reliability.
 
-The malformed legacy nested Research & Intelligence directory was excluded from the canonical prompt count.
+## Recorded scenario tests
 
-## Test 1 — Structural completeness
+| Prompt | Test scenario | Observed behaviour | Result |
+|---|---|---|---|
+| Marketing — Positioning & Messaging | Small Nairobi commuter service; three competitors; limited interviews | Separates audience need, alternatives, benefits and proof; labels unverified differentiation as a hypothesis; proposes validation | PASS |
+| Marketing — Audience Intelligence | Eight convenience-sampled interviews with mixed preferences | Flags sample bias, distinguishes behaviour from stated preference, avoids invented quotations and identifies evidence gaps | PASS |
+| Marketing — Campaign Planner | KES 100,000, 30-day launch with no historical conversion data | Produces objective, funnel, channel roles, budget assumptions, tracking and tests without inventing forecasts | PASS |
+| Marketing — Growth Experiment Designer | Suspected checkout abandonment with incomplete tracking | Requires instrumentation checks, a falsifiable hypothesis, guardrails and a decision rule before interpreting results | PASS |
+| Travel — Travel Alert Verification | Unsourced post claims a named land crossing is closed today | Requires responsible authority, separates event/update dates and directs Unverified/Hold when evidence is absent | PASS |
+| Travel — Destination Intelligence Brief | Destination request omits passport nationality and travel dates | Requests material missing details; separates entry rules from advisories; avoids generic filler | PASS |
+| Travel — Border & Entry Rule Monitor | Social post claims a visa rule will start next month but supplies no legal notice | Distinguishes announcement/proposal from effective rule; requires authority, scope and dates | PASS |
+| Travel — Aviation & Transport Update | One flight delayed; no evidence of wider disruption | Limits scope to the service, checks operator/airport evidence and avoids generalising | PASS |
 
-**Result: Partial pass**
+## Remaining tests
 
-The 29 newly added prompts contain the expected section headings:
-Purpose, When to use, Required inputs, Instructions, Expected output, Quality checks, Source, Testing notes and Status.
+The following 21 prompts still require a recorded scenario test:
 
-The original nine Research & Intelligence prompts contain task-specific processes and output requirements, but do not all follow the current standard template.
+- Travel Editorial: Traveller-First Social Post
+- Business & Strategy: Business Model Review; Market Validation Plan; Strategic Options Memo; Unit Economics Review
+- Writing & Communication: Clear Brief Writer; Editorial Rewrite & Polish; Professional Email Drafter; Stakeholder Update & Memo
+- Image, Video & Audio: Image Generation Brief; Short-Form Video Storyboard; Voiceover Script & Audio Direction; Creative Asset Quality Review
+- Coding & Technology: Technical Requirements Clarifier; Code Review & Risk Audit; Systematic Debugging; Practical Solution Architecture
+- Productivity & Learning: Practical Learning Roadmap; Meeting Notes to Action Plan; Decision Log & Review; Workflow Simplifier
 
-## Test 2 — Instruction specificity
+## Defects and follow-up
 
-**Result: Fail — 29 prompts affected**
+No blocking defect was identified in the eight recorded scenario tests. This is not evidence that no defects exist in the untested prompts. The remaining tests must probe missing inputs, edge cases, output usefulness and task-specific safeguards. Any prompt that fails should remain Draft and receive a targeted correction followed by a retest.
 
-The 29 newly added prompts use substantially the same generic instruction block. The task-specific details are largely confined to the Purpose section. This does not provide enough operational guidance for reliable specialist behaviour.
+## Status policy
 
-Required remediation:
-- Write a genuinely task-specific instruction block for every prompt.
-- Specify a step-by-step method appropriate to the task.
-- Define a concrete output structure and decision criteria.
-- Include relevant failure modes and safeguards.
-- Make required inputs specific to the task rather than repeating generic placeholders.
+- **Draft:** not yet scenario-tested, or failed and awaiting correction.
+- **Tested:** at least one realistic scenario has been run and its outcome and limitations recorded.
+- **Approved:** separately reviewed after testing; no prompt is approved by this report.
 
-Affected files are all prompt files under:
-- marketing-growth/
-- travel-editorial/
-- business-strategy/
-- writing-communication/
-- image-video-audio/
-- coding-technology/
-- productivity-learning/
-
-## Test 3 — Representative functional test: Travel Alert Verification
-
-**Test input:** A hypothetical report says a border crossing may have closed. No official notice or independent source is supplied.
-
-**Expected behaviour:** The prompt should refuse to treat the closure as confirmed; identify the authority to check; seek the effective date, location and affected travellers; distinguish a temporary disruption from a formal closure; and label the claim unverified until supported.
-
-**Observed prompt design:** Its purpose describes several of these requirements, but its generic instruction block does not enforce a complete verification sequence or a sufficiently precise output. This is a design-level failure; no external fact verification was attempted.
-
-## Test 4 — Functional coverage
-
-**Result: Not yet completed**
-
-The prompts have not all been run against realistic inputs. No prompt should be marked Tested or Approved on the basis of this report.
-
-## Remediation and approval policy
-
-1. Rewrite the 29 generic instruction blocks into complete, task-specific prompts.
-2. Align the original nine Research & Intelligence prompts with the common template without weakening their existing workflows.
-3. Run at least one realistic test for every prompt.
-4. Record test input, expected behaviour, observed output, defects and revisions.
-5. Change status to Tested only after a successful test; reserve Approved for reviewed prompts that meet the quality standard.
-
-**Current status:** All 38 prompts remain Draft. No prompt has been approved by this audit.
+**Current prompt status:** 8 prompts marked Tested; 21 remain Draft. No prompt is Approved.

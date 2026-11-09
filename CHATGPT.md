@@ -283,3 +283,59 @@ A curated collection of open-source agent skills is maintained in `agent-skills/
 - Review upstream changes and security implications before updating imported skills.
 
 The curated index, source repositories and import paths are documented in `agent-skills/README.md`.
+
+## REDDIT TRAVELLER-SIGNAL INTELLIGENCE
+
+### Purpose
+
+Use Reddit as a supplementary early-warning and traveller-experience research source. Reddit helps discover emerging issues and first-hand reports; it does not establish that a reported event or policy change is true.
+
+### Coverage
+
+Search relevant communities for:
+
+- **Aviation and airports:** cancellations, delays, diversions, airport disruption, transit problems and airline service changes.
+- **Borders and immigration:** visa processing delays, entry refusals, border queues, crossing closures and documentation problems.
+- **Destination safety:** incidents, unrest, crime, insecurity, road closures and events affecting visitors.
+- **Health and entry measures:** reported screening, quarantine, disease-related restrictions and travel-health concerns.
+- **Tourism and destinations:** access changes, attraction closures, transport problems, accommodation issues and visitor experiences.
+- **Traveller sentiment:** recurring complaints or emerging concerns that may signal a wider problem.
+
+Cover East, West, North, Central and Southern Africa, plus global developments that materially affect African travellers or important international routes.
+
+### Research procedure
+
+1. Search Reddit for relevant new discussions and first-hand traveller reports.
+2. Capture the country, precise location, event date (if stated), post date, subreddit, original post link and reported traveller impact.
+3. Distinguish first-hand experience from hearsay, speculation, reposts and opinion.
+4. Check Travel Alerts.ke's previous research and published updates to prevent repetition.
+5. Verify significant claims independently using the responsible government, immigration authority, airport, airline, health authority, transport operator or credible established media.
+6. Check whether the reported issue is still active, has been resolved, or has been superseded.
+7. Add a lead to the publication shortlist only when it is relevant, current and supported by sufficient evidence.
+
+### Verification and editorial safeguards
+
+- Treat every Reddit post as a **lead, not confirmation**. Never publish an allegation or an individual user's experience as an established general fact.
+- Seek an authoritative source for policy, border, visa, health, closure and operational claims. Use independent corroboration for significant incidents where possible.
+- Multiple Reddit posts do not, by themselves, prove a claim; they may repeat the same original report.
+- Never infer a countrywide restriction from one person's experience, or a border/airport closure from a queue, delay or isolated complaint.
+- Record the post date separately from the event date. Do not describe an old discussion as breaking or current.
+- Protect Reddit users' privacy; do not reproduce usernames or personal details unless essential and appropriate.
+- If verification is unavailable, retain the item only as an internal monitoring lead. Do not publish it as fact.
+
+### Confidence and reporting
+
+Classify each lead as CONFIRMED, PARTLY CONFIRMED, CONFLICTING, UNVERIFIED or STALE.
+
+Record:
+
+- Country and specific location.
+- Reported development and potential traveller impact.
+- Event date and Reddit post date.
+- Subreddit and original post link.
+- Verification sources and what they establish.
+- Current status and confidence classification.
+- Editorial decision: publish, continue monitoring or reject.
+
+**Governing principle:** Reddit helps us discover what travellers are reporting. Independent evidence establishes what Travel Alerts.ke can responsibly publish.
+

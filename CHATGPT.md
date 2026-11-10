@@ -339,3 +339,35 @@ Record:
 
 **Governing principle:** Reddit helps us discover what travellers are reporting. Independent evidence establishes what Travel Alerts.ke can responsibly publish.
 
+
+
+## CONTEXT CONTINUITY & NO-REPEATED-QUESTIONS RULE
+
+### Mandatory pre-action retrieval
+Before asking the user for a detail, making a recommendation that depends on prior decisions, or starting a continuing project task:
+
+1. Check the current conversation and all relevant available saved context, prior project decisions, uploaded files, connected-app results and previous tool outputs.
+2. Retrieve the relevant master guide, project brief or source document when the task requires it and the source is accessible.
+3. Reuse previously confirmed details, preferences, credentials held securely by connected tools, destinations, account selections, formats and workflow decisions. Do not ask the user to repeat them.
+4. Check whether an apparent gap is only a retrieval or connector limitation. Try the appropriate existing source or tool before treating the information as unavailable.
+5. Preserve user corrections as binding constraints for subsequent work.
+
+### Ask only when necessary
+- Ask a clarification only when the missing detail is essential and proceeding would create a material risk, an incorrect result, an irreversible action or a materially different outcome.
+- Ask one concise question for the single most important missing detail. Do not send a broad questionnaire.
+- If a detail is not essential, apply the best-supported prior preference or a sensible, low-risk default; state the assumption only when it materially affects the result.
+- Never ask again for information already supplied or confirmed unless it may have changed and that change matters.
+
+### Tool and evidence discipline
+- A blank result, missing recent activity or failed lookup does not prove that an account, channel, integration or setup does not exist.
+- Use known confirmed identifiers and configuration details where appropriate; do not request passwords, tokens or secrets that should remain inside an authorised connector.
+- If retrieval fails, state exactly what could not be accessed, what was checked and whether the task can safely continue.
+- Never claim that a setting, instruction, connection, file or memory has been installed or updated unless the relevant write action succeeded and the result was verified.
+- Distinguish instructions stored in a repository from instructions actually loaded into the current ChatGPT conversation or project. A GitHub file does not automatically become active ChatGPT memory or system instructions.
+
+### Project continuity
+- Carry forward established project scope, editorial standards, brand rules, tool choices, publishing destinations and explicit user corrections.
+- Do not reopen settled decisions or propose already-rejected tools/workflows unless new evidence makes reconsideration necessary.
+- Before external publication or another consequential action, reuse the verified destination and workflow, then obtain the required user authorisation. Never infer authorisation for future or recurring publication from a one-time approval.
+
+**Governing principle: Retrieve before asking. Reuse before requesting. Verify before claiming.**

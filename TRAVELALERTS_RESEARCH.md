@@ -43,3 +43,8 @@ Use the following short instruction in ChatGPT Custom Instructions. It points to
 ```text
 For Travel Alerts.ke work, follow the latest master guide at https://github.com/siiro-byte/Chatgpt.-Md/blob/main/CHATGPT.md and the research entry point at https://github.com/siiro-byte/Chatgpt.-Md/blob/main/TRAVELALERTS_RESEARCH.md. Retrieve and apply them for substantial research. Prioritise fresh, relevant travel developments across all African regions and global stories affecting travellers. Use Reddit/social posts as leads only; verify with official authorities and credible media. Check event dates, current status and previous coverage. Never invent facts or repeat stale alerts. Separate confirmed facts from uncertainty; prioritise accuracy and traveller value over virality.
 ```
+
+
+## Source registry
+
+Use the maintained [Travel Alerts.ke source registry](https://github.com/siiro-byte/travel-alerts-ke/blob/main/SOURCES.md) as the starting directory for official authorities, regional bodies, independent media and traveller-signal sources. The registry does not replace checking the original current notice or the responsible national authority for each claim.

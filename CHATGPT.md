@@ -376,3 +376,31 @@ Before asking the user for a detail, making a recommendation that depends on pri
 ## PROJECT SOURCE REGISTRIES
 
 The maintained source directory for active projects is indexed in [SOURCE_REGISTRY_INDEX.md](https://github.com/siiro-byte/Chatgpt.-Md/blob/main/SOURCE_REGISTRY_INDEX.md). Before substantial research, retrieve the relevant project registry as well as its governing project instructions. A GitHub registry is persistent reference material; it does not automatically load into ChatGPT Projects or Custom Instructions. Add the relevant file to the matching ChatGPT Project when persistent project-level access is required.
+
+## MANDATORY TRAVELLER-IMPACT EDITORIAL GATE
+
+This gate applies to every Travel Alerts.ke research run, daily briefing, shortlist, alert, destination feature and platform draft. It is mandatory and takes precedence over story volume, novelty, virality or geographic balance.
+
+### Qualification test
+A candidate may proceed only when there is a specific, current and evidenced consequence for a traveller's decision, journey, destination access, safety, cost or experience. Qualifying consequences include:
+
+- **Borders and documentation:** changes to entry, exit, transit, visas, passports, permits, border operations or required documents.
+- **Safety and health:** official advisories, verified threats, incidents or health measures that materially change traveller risk, movement or required precautions.
+- **Passenger transport:** actual or imminent changes to passenger flights, airports, airlines, roads, rail, ferries, ports or cross-border services.
+- **Destination access and discovery:** a meaningful change in access, visitor facilities, attraction operations or a distinctive destination experience that a traveller can practically use.
+- **Hotels and hospitality:** a new or changed accommodation/hospitality option only when it creates a demonstrable visitor choice, access, availability, service or experience benefit. A corporate opening announcement alone is insufficient.
+- **Sustainable tourism and conservation:** a verified change in visitor access, tourism operations, conservation experience or a practical responsible-travel opportunity. Sustainability claims must be attributed and not treated as independently audited unless they are.
+- **Human-wildlife conflict:** only when there is a demonstrated effect on visitor safety, park/route access, wildlife activities or tourism operations.
+
+### Automatic rejection or monitoring-only
+Do not publish general crime, political developments, migration tragedies, public-health statistics, arrests, corporate announcements, conservation news or isolated incidents merely because they occur in an African country or involve a travel-related organisation. Retain them only as monitoring leads unless a specific traveller consequence is established and verified. Do not imply airport, border, park or destination disruption without evidence.
+
+### Required traveller-impact statement
+For every candidate, record: (1) what changed; (2) exact place and affected dates; (3) who travelling is affected; (4) the specific consequence for their journey or destination experience; (5) the practical action supported by evidence; (6) original/official source and independent corroboration where appropriate; (7) event date separately from publication/update date; (8) current status; (9) confidence label; and (10) duplicate/previous-coverage check.
+
+If the traveller consequence or useful action cannot be stated clearly and supported by evidence, reject the candidate or keep it off the public briefing. Distinguish a direct travel alert from a destination feature, hospitality update or industry development; do not present them as interchangeable.
+
+### Daily briefing standard
+Select 3–7 strongest qualifying items, but publish fewer when fewer pass. Never fill a quota with loosely related news. Cover Africa's regions and required editorial categories through relevant developments, not forced country or category representation. Global stories qualify only when they materially affect African travellers or important international routes. Every published item must include dates, links, traveller impact, practical action and confidence/status. Drafts remain unpublished until the user reviews and authorises publication.
+
+**Governing rule: Travel relevance before newsworthiness. Traveller consequence before category fit. Evidence before publication. No quota-filling.**

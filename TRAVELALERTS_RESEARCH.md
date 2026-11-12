@@ -16,15 +16,31 @@ This file is the starting point for research work on Travel Alerts.ke.
 6. Global developments that materially affect African travellers or important international routes.
 
 ## Geographic coverage
-Africa is the primary focus. Maintain balanced coverage across East, West, North, Central and Southern Africa. Include global stories when they have clear relevance to African or international travellers.
+Africa is the primary focus. Maintain balanced coverage across East, West, North, Central and Southern Africa. Include global stories only when they materially affect African travellers, important international routes, or a clearly identified traveller decision. Novelty or popularity alone is insufficient.
 
 ## Source discipline
 - Use Reddit and social platforms to discover leads and traveller experiences, not as proof.
 - Verify significant claims with responsible official authorities and credible independent reporting.
 - Record event date separately from publication/update date; confirm whether the issue remains active.
 - Distinguish confirmed facts, inference, uncertainty and opinion.
+- Use East Africa Time (EAT, UTC+3) for daily cut-offs. Prioritise items first published or materially updated in the preceding 24 hours; older items require a verifiable material change in that period.
 - Use the confidence labels in the master guide: CONFIRMED, PARTLY CONFIRMED, CONFLICTING, UNVERIFIED or STALE.
 - Do not invent closures, cancellations, restrictions, route changes or urgency.
+- Separate forecasts and warnings from observed impacts; a forecast alone is not proof of disruption.
+- Check whether each issue is active, upcoming, resolved, extended or superseded immediately before drafting.
+
+
+## Daily research run — final checks
+
+Before preparing the briefing:
+1. Search the five African regions and relevant global routes/destinations; check official sources first, then credible media. Use Reddit/social only to discover leads.
+2. Compare candidates with previous research and published posts. Repeat a story only for a material, verified change.
+3. Recheck the latest status and effective dates immediately before drafting.
+4. Keep UNVERIFIED and STALE items out of public alerts; retain them only as monitoring notes where useful.
+5. For weather, health and security warnings, name the affected place, travel dates or period, affected travellers and supported action. Do not imply actual disruption where only a forecast or warning exists.
+6. If no candidate passes both the traveller-impact and evidence tests, report that no publishable update was verified.
+
+A daily item must show: editorial headline; what changed; precise location; event date and publication/update date; who is affected; concrete traveller consequence; supported action; current status and confidence; direct source link(s). Clearly label an item as an alert, destination feature or hospitality/industry opportunity. Drafts are not published without the user's explicit approval.
 
 ## Editorial output
 For each candidate, state what happened, where, when, who is affected, why it matters to travellers, what practical action is supported by evidence, the confidence status and the source. Keep posts concise and editorially clear.
@@ -36,7 +52,7 @@ Reject or retain as monitoring-only general crime, politics, migration tragedies
 
 For each item state what changed, exact place and affected dates, who is affected, the specific traveller consequence, supported practical action, original/official evidence, event date, publication/update date, current status, confidence and previous-coverage check. If the consequence or useful action cannot be substantiated, reject it.
 
-Select 3–7 strongest items only when they pass; fewer are acceptable. Never fill a quota. Distinguish alerts from destination features and hospitality/industry updates. Global stories must materially affect African travellers or important international routes. Drafts remain unpublished pending user review and authorisation.
+Select up to 3–7 strongest items only when they pass; fewer, including none, are acceptable. Never fill a quota. Search all five African regions, but do not force equal regional or category representation. Distinguish alerts from destination features and hospitality/industry updates. Global stories must materially affect African travellers or important international routes. Drafts remain unpublished pending user review and authorisation.
 
 **Governing rule:** Freshness and traveller relevance guide discovery. Evidence determines publication. Accuracy and trust take priority over virality.
 

@@ -29,8 +29,14 @@ Africa is the primary focus. Maintain balanced coverage across East, West, North
 ## Editorial output
 For each candidate, state what happened, where, when, who is affected, why it matters to travellers, what practical action is supported by evidence, the confidence status and the source. Keep posts concise and editorially clear.
 
-## Publication gate
-Publish only when the development is current, materially relevant, sufficiently verified and not a duplicate. Otherwise retain it as a monitoring lead or reject it.
+## Mandatory traveller-impact publication gate
+A candidate qualifies only when there is a specific, current and evidenced consequence for a traveller's decision, journey, destination access, safety, cost or experience. Check borders/documentation; safety and health; passenger transport; destination access/discovery; hotels and hospitality; sustainable tourism; and human–wildlife conflict only where there is a demonstrable visitor or tourism-operation consequence.
+
+Reject or retain as monitoring-only general crime, politics, migration tragedies, public-health statistics, arrests, corporate announcements, conservation news and isolated incidents unless a specific traveller consequence is established. A hotel opening or sustainability announcement is not automatically a travel story. Never infer airport, border, park or destination disruption.
+
+For each item state what changed, exact place and affected dates, who is affected, the specific traveller consequence, supported practical action, original/official evidence, event date, publication/update date, current status, confidence and previous-coverage check. If the consequence or useful action cannot be substantiated, reject it.
+
+Select 3–7 strongest items only when they pass; fewer are acceptable. Never fill a quota. Distinguish alerts from destination features and hospitality/industry updates. Global stories must materially affect African travellers or important international routes. Drafts remain unpublished pending user review and authorisation.
 
 **Governing rule:** Freshness and traveller relevance guide discovery. Evidence determines publication. Accuracy and trust take priority over virality.
 

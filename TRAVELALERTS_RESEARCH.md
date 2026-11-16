@@ -108,3 +108,10 @@ For each lead capture aggregator (if any), originating publisher, original URL, 
 ## X-only distribution check — does not affect research
 
 After all independent research/verification and duplicate checks, apply the lightweight **X-ONLY ALGORITHM INTELLIGENCE** checklist in `CHATGPT.md` **only** to qualified @travelalertss drafts. Do not query Grok, run algorithm checks across general research, block urgent notifications, change alert priority or optimize other platforms. Skip when no X drafts qualify. No paid API calls or automatic publication.
+
+
+### Research-source retirement — 16 Nov 2026
+- Grok/xAI via Composio is **removed from the research and radar workflow**. Do not discover, call, test, or require Grok for research. This does **not** remove the separately approved Composio → Buffer X publishing route.
+- Samsung News is **not a dependable automated source**: Samsung announced discontinuation on 21 Dec 2026 (https://www.samsung.com/uk/support/newsalert/130018/). Treat it as optional manual discovery until closure; never report automated Samsung feed access without proof. Prefer original publisher feeds, official authorities and accessible Google News discovery.
+- Deduplication: use `data/travel-alerts-content-log.csv` as a seed ledger; compare canonical URL, event date, country and normalized incident key. A blank ledger is NOT proof of no previous coverage; mark `HISTORY_INCOMPLETE` until prior platform history is imported.
+- End-to-end gate: retrieve instructions, discover candidates, corroborate with primary authority, compare ledger and historical posts, assign P0/P1 only on verified material impact, prepare approval-only drafts, record each check and its limitations. No auto-publication or paid calls.

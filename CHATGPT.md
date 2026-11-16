@@ -419,3 +419,18 @@ Apply these rules on every daily research run:
 9. **Drafting and release:** Prepare separate concise platform drafts only where requested or part of the agreed workflow. No post, alert or scheduled content is published without the user's explicit approval.
 
 **Daily stop rule:** If no candidate passes the traveller-impact and evidence gates, report that no publishable update was verified. Never manufacture a daily update.
+
+
+## TRAVEL ALERTS.KE — X PUBLISHING ROUTE (VERIFIED 2026-11-16)
+
+**Primary working route:** ChatGPT → Composio → Buffer → X **@travelalertss**. This was verified by a successful Buffer `share_now` publication on 16 November 2026 at 14:51 EAT; Buffer returned `status=sent`, `success_count=1`, `failure_count=0`. Prior successful Buffer publication was also confirmed on 15 November. These are historical checks, not guarantees that future connections remain active.
+
+1. For an approved X post, **first discover Composio's Buffer actions**; do not default to direct X/Twitter, Hermoso, SocialClaw or Metricool merely because those connectors are visible. A missing direct Composio X connection does **not** imply Buffer's X channel is unavailable.
+2. Check Buffer's current active connection with `BUFFER_GET_ACCOUNT_CONTEXT`. Select the **connected, unlocked Twitter/X channel named travelalertss** by the channel ID returned **in that run**; never assume an old channel ID is still valid.
+3. Check recent `BUFFER_LIST_POSTS` for that channel and compare the proposed story/text against already sent or scheduled posts to prevent duplication. Apply the editorial story-level deduplication gate as well.
+4. Require explicit editor approval of the exact text and intended account before public publishing. Respect existing_only spending; check and seek approval for any new paid usage, upgrades or limits. Do not assume approval of research authorizes publication.
+5. On approval, use Composio's `BUFFER_PUBLISH_POSTS` with the verified `channel_ids`, `text` and `delivery_mode: "share_now"`. Do not schedule or cross-post unless separately approved.
+6. Inspect the actual tool response: report **published** only if the intended channel returns `status: "sent"` (and no relevant failure); otherwise report queued, failed or uncertain accurately. Save or reference the post ID, timestamp and platform when available; never invent an X permalink.
+7. If Buffer is disconnected, locked, unavailable or fails, explain the specific blocker. Only then consider another publishing provider after checking its connection, costs and limits. Hermoso's Free plan hit its monthly publishing limit on 16 November 2026, so it is not the default fallback; recheck current status before any future use.
+
+**No automatic publication:** Radar and research generate drafts for editorial approval only. GitHub instructions are durable documentation, not automatic ChatGPT memory or connector activation; retrieve the latest guide when performing substantial Travel Alerts.ke work.

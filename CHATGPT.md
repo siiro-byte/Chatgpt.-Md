@@ -454,3 +454,10 @@ Source registry fields: source, region, domain, tier, source type (official/orig
 - If no X drafts qualify, **skip** this check entirely. If official algorithm references are inaccessible, use the stable editorial checklist without blocking delivery and label the algorithm evidence unavailable. Never claim algorithmic reach is guaranteed or that a live ranking test ran.
 - Where accessible **without new paid usage**, review actual X/Buffer performance separately at 24h, 7d and 30d; label missing metrics unavailable, never infer reach from Buffer `sent` status. Do not add performance checks to the hourly disruption search.
 - Existing publishing remains editor-approved only via Composio → Buffer → @travelalertss; no automatic posting, scheduling or spending. No other platform's editorial rules are changed.
+
+
+### Research-source retirement — 16 Nov 2026
+- Grok/xAI via Composio is **removed from the research and radar workflow**. Do not discover, call, test, or require Grok for research. This does **not** remove the separately approved Composio → Buffer X publishing route.
+- Samsung News is **not a dependable automated source**: Samsung announced discontinuation on 21 Dec 2026 (https://www.samsung.com/uk/support/newsalert/130018/). Treat it as optional manual discovery until closure; never report automated Samsung feed access without proof. Prefer original publisher feeds, official authorities and accessible Google News discovery.
+- Deduplication: use `data/travel-alerts-content-log.csv` as a seed ledger; compare canonical URL, event date, country and normalized incident key. A blank ledger is NOT proof of no previous coverage; mark `HISTORY_INCOMPLETE` until prior platform history is imported.
+- End-to-end gate: retrieve instructions, discover candidates, corroborate with primary authority, compare ledger and historical posts, assign P0/P1 only on verified material impact, prepare approval-only drafts, record each check and its limitations. No auto-publication or paid calls.

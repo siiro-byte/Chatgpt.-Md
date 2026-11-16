@@ -434,3 +434,12 @@ Apply these rules on every daily research run:
 7. If Buffer is disconnected, locked, unavailable or fails, explain the specific blocker. Only then consider another publishing provider after checking its connection, costs and limits. Hermoso's Free plan hit its monthly publishing limit on 16 November 2026, so it is not the default fallback; recheck current status before any future use.
 
 **No automatic publication:** Radar and research generate drafts for editorial approval only. GitHub instructions are durable documentation, not automatic ChatGPT memory or connector activation; retrieve the latest guide when performing substantial Travel Alerts.ke work.
+
+
+## TRAVEL ALERTS.KE — NEWS DISCOVERY SOURCE REGISTRY (2026-11-16)
+
+Use a layered discovery network, not a single aggregator. Tier 1 international: Reuters, AP, AFP, BBC, Al Jazeera; pan-African: Africanews and AllAfrica (the latter is an aggregator, so trace to originating publisher). Tier 2 regional/sector: France 24/RFI, DW, CNN, The EastAfrican, FlightGlobal, AeroTime, Simple Flying. Discovery aggregators: Samsung News, Google News and Microsoft Start/MSN. Include reputable local publishers across all five African regions, not only Kenya. These are candidate sources, NOT guaranteed connected APIs or evidence of active monitoring.
+
+Samsung News/Google News/MSN headlines are discovery leads only: retrieve the originating article and publisher, confirm publication/update timestamp and incident/event timestamp in EAT, corroborate material travel claims with competent official authorities (airport/airline/CAA/NOTAM, immigration/border, police, health, transport) and reliable independent reporting. Do not cite an aggregator alone as confirmation. If inaccessible, log SOURCE_UNAVAILABLE and continue other sources; never imply the app feed was searched when it was not. Prefer freely accessible public sources; existing_only spending, no paid API calls without approval.
+
+Source registry fields: source, region, domain, tier, source type (official/original publisher/aggregator/social), homepage or accessible endpoint, access method, last successful check, status, original URL, publisher, article published/updated EAT, event EAT, verification evidence, confidence, affected travellers, actionable consequence, canonical incident key, prior coverage status. Deduplicate by incident, not headline; distinguish material updates from recycled reporting. Cover six editorial domains in TRAVELALERTS_RESEARCH.md. Research never authorizes automatic publication.

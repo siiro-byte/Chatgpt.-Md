@@ -96,3 +96,10 @@ Do not allow aviation stories to dominate merely because they are easier to disc
 ## X publishing handoff
 
 Research and drafting do not authorize publication. For an explicitly approved Travel Alerts.ke X post, use the verified **ChatGPT → Composio → Buffer → @travelalertss** route described in `CHATGPT.md` under **TRAVEL ALERTS.KE — X PUBLISHING ROUTE**. Check current Buffer connection/channel and previous sent posts, then publish only approved content with `BUFFER_PUBLISH_POSTS` (`delivery_mode: "share_now"`); confirm `status: "sent"`. Do not default to Hermoso or assume a disconnected direct X toolkit means Buffer cannot publish. Respect existing_only spending and never auto-publish.
+
+
+## NEWS CHANNEL DISCOVERY AND VALIDATION — 2026-11-16
+
+Search alongside primary authorities: Reuters, AP, AFP, BBC, Al Jazeera, Africanews, AllAfrica; supplement with France 24/RFI, DW, CNN, The EastAfrican, FlightGlobal, AeroTime and Simple Flying. Monitor Samsung News, Google News and Microsoft Start/MSN only when accessible as discovery aggregators, never as stand-alone verification. Seek original local reporting in West, North, Southern, East and Central Africa. No source is presumed technically integrated just because it is listed.
+
+For each lead capture aggregator (if any), originating publisher, original URL, article published/updated time, incident time, jurisdiction, affected travellers, practical consequence, corroborating official source, last checked EAT and duplicate incident key. Verify airline/airspace/border/visa closure claims with responsible authority before escalation. An aggregator headline, syndication or social repost is not a second independent confirmation. Mark inaccessible feeds SOURCE_UNAVAILABLE; record actual checks, do not fabricate coverage. Prioritize last 24 hours but permit older incident with a newly verified material change. Apply six-domain and pan-African diversity gates, no stale padding, no automatic publishing, existing_only spending.

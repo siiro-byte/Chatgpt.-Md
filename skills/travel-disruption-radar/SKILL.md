@@ -57,3 +57,10 @@ This gate is mandatory before any daily briefing, radar notification, shortlist,
 7. **After delivery:** record researched, rejected, shortlisted, approved and published status separately with event time, source time, first-seen time and publication time in EAT. A research mention is not proof of publication, but it is prior coverage for briefing deduplication. If a durable log cannot be written, explicitly report LOG_WRITE_UNAVAILABLE and do not claim cross-run deduplication is guaranteed.
 
 **Acceptance tests:** yesterday's Bahrain warning repeated today => DUPLICATE_REJECTED; a newly published article about the same US ground stop => DUPLICATE_REJECTED; officially verified airport reopening after yesterday's closure => MATERIAL_UPDATE_VERIFIED; an inaccessible content log => HISTORY_UNVERIFIED; request for nine stories with only four eligible => return four, not nine.
+
+
+## X editorial handoff — verified publishing route (2026-11-16)
+
+This radar **never publishes automatically**. Produce up to five distinct verified X drafts only when new, material and publication-worthy incidents qualify; require explicit editor approval for each publication. Before drafting or publishing, check the accessible prior-coverage log and recent sent/scheduled posts to avoid duplicates.
+
+**When the editor explicitly approves an X post:** Follow the primary workflow in repository `CHATGPT.md`, section **TRAVEL ALERTS.KE — X PUBLISHING ROUTE**: ChatGPT → Composio → Buffer → @travelalertss. Discover the current Composio Buffer tools, verify active Buffer connection and exact unlocked X channel, inspect recent sent posts, then call `BUFFER_PUBLISH_POSTS` with `delivery_mode: "share_now"` for the approved text only. Verify `status: "sent"` before reporting success; record the returned post ID and timestamp. Do not mistake a missing direct X connection for a missing Buffer connection. Do not fall back to paid providers or spend without explicit authorization. Never auto-publish, auto-schedule or pad the X draft quota.

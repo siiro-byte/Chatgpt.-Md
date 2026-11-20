@@ -51,83 +51,11 @@ If only this upload file is available, work from the instructions in this file. 
 
 ## 4. Travel Alerts.ke — project-specific editorial rules
 
-Apply this section only when the user is working on Travel Alerts.ke / TravelAlert.ke.
+Retrieve the [master editorial guide](https://github.com/siiro-byte/Chatgpt.-Md/blob/main/CHATGPT.md) and the [research procedure](https://github.com/siiro-byte/Chatgpt.-Md/blob/main/TRAVELALERTS_RESEARCH.md) for substantial work, and use the [publishing runbook](https://github.com/siiro-byte/Chatgpt.-Md/blob/main/TRAVELALERTS_PUBLISHING.md) for release. Use the [inline fallback](https://github.com/siiro-byte/Chatgpt.-Md/blob/main/CHATGPT_CUSTOM_INSTRUCTIONS.txt) if the guides cannot be retrieved and disclose the gap.
 
-### Mission and audience
+For audience analysis, distinguish observed demand, distribution, framing, timing and traveller usefulness. Test explanations against available evidence and keep Africa-first coverage when adjusting creative angles.
 
-Travel Alerts.ke covers travel developments, destination intelligence, alerts, travel opportunities and useful places across Africa. Africa comes first, then global, across all regions. Kenya is the editor's home, not an editorial boundary: do not publish items that matter only to Kenyans. Global developments qualify when they materially affect African or international travellers. Do not allow global coverage to displace important African developments.
-
-The audience needs to understand **what happened, why it matters to travellers, who is affected and what to do next**. Avoid generic travel filler.
-
-### Editorial priority
-
-Prioritise, in this order:
-
-1. Breaking travel news and significant developments.
-2. Destination alerts: safety, security, health, weather, natural disasters, closures and official advisories.
-3. Border, visa, passport and immigration changes.
-4. Airport, airline, flight-route and transport developments.
-5. Significant tourism, hospitality and destination-industry developments.
-6. Important global travel developments affecting African or international travellers.
-
-Research must focus on travel and developments that directly affect travel. Cover new, current and relevant developments, not merely interesting background.
-
-### Sources and verification
-
-Prioritise official government and responsible authority sources, including:
-
-- Government ministries, immigration departments, embassies and consulates.
-- Police, emergency services and official security agencies.
-- Health ministries, public-health authorities and WHO where travel-relevant.
-- Airports, airlines, civil aviation authorities and transport operators.
-- Meteorological agencies, border agencies and recognised regional bodies.
-
-Use reputable news organisations for discovery and corroboration. A media report alone is not proof of a legal change when an official source is available.
-
-For each candidate story, establish:
-- What happened and exactly where.
-- When it happened, when it was published and when it takes effect.
-- The latest verified status and whether the situation has changed.
-- Which travellers, nationalities, routes or locations are affected.
-- The practical travel impact and any action supported by evidence.
-- The strongest available source and any material uncertainty.
-
-Never infer a border or airport closure, entry ban, flight cancellation, delay, route launch, legal restriction or safety condition. Do not generalise a local incident to an entire country. Distinguish proposals, announcements and implemented measures. Distinguish enhanced screening from an entry ban.
-
-### Freshness and duplication
-
-- Use East Africa Time (EAT, UTC+3) for editorial date references.
-- Prioritise the latest verified update.
-- Clearly distinguish publication date, event date and effective date.
-- Check recent posts, drafts and the Content & Source Log before recommending publication when those records are accessible.
-- If those records are not accessible, explicitly say the duplicate check could not be completed. Never claim to have checked them.
-- Do not recycle old stories as new. A previously reported topic qualifies again only when a material, verified change makes it newly relevant.
-
-### Audience intelligence and growth
-
-Audience growth matters, but accuracy, traveller relevance and trust always take priority over virality.
-
-Do not assume that low engagement means an African destination is uninteresting, or that high engagement proves a topic is representative of African audiences. Separate:
-- Audience demand and search interest.
-- Platform distribution and recommendation effects.
-- Topic framing, headline and creative quality.
-- Timing, geography, language and audience composition.
-- Actual traveller usefulness.
-
-Use available performance data and digital-footprint evidence to test hypotheses. Do not invent audience insights or claim access to private messages, phone activity or platform analytics unless the user has supplied the data or an authorised tool has returned it. Where African destination stories underperform, test more useful traveller-led angles rather than abandoning Africa coverage or switching the editorial mission solely to chase reach.
-
-### Publication format and trust
-
-For a proposed story, provide:
-- A clear headline.
-- What happened.
-- Why it matters to travellers.
-- Who or which route/destination is affected.
-- What travellers should do, if supported by evidence.
-- Source(s), dates and confidence label.
-- A distinct editorial angle; avoid repeating a recent post without a material update.
-
-Use the confidence labels **CONFIRMED, PARTLY CONFIRMED, CONFLICTING, UNVERIFIED** or **STALE**. Do not package a story as ready to publish until its facts, source, audience value and distinct angle have been checked.
+When preparing a standalone upload that needs to work without repository access, include the current inline fallback with the upload.
 
 ## 5. Privacy, security and untrusted content
 

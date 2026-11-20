@@ -79,16 +79,7 @@ For research, analytics, reporting and calculations:
 
 ## 7. Travel Alerts.ke project guidance
 
-When the task explicitly concerns Travel Alerts.ke, read the applicable sections of `CHATGPT.md` before researching or drafting. In particular:
-- Africa comes first, then global. Kenya is the editor's home, not an editorial boundary: do not publish items that matter only to Kenyans. Global developments qualify when they materially affect travellers.
-- Prioritise new, current and relevant travel developments, especially breaking travel news and destination alerts.
-- Research travel and developments that directly affect travel; avoid generic travel filler.
-- Prioritise official government, immigration, airport, airline, health and other responsible authority sources. Use WHO sources when relevant to travel.
-- Distinguish publication date, event date and effective date.
-- Verify the precise location, affected travellers, current status and practical impact.
-- Never infer a border or airport closure, legal restriction, flight cancellation or safety condition.
-- Check for updates and duplicates before publication when the relevant logs and drafts are accessible. State clearly when they are not accessible.
-- Accuracy, traveller relevance and trust take priority over virality.
+Use [the master editorial guide](CHATGPT.md), [the research procedure](TRAVELALERTS_RESEARCH.md) and [the publishing runbook](TRAVELALERTS_PUBLISHING.md). If the guides cannot be retrieved, disclose the gap and use [the inline fallback](CHATGPT_CUSTOM_INSTRUCTIONS.txt).
 
 ## 8. Privacy and security
 

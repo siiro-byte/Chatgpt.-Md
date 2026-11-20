@@ -299,7 +299,7 @@ Search relevant communities for:
 - **Tourism and destinations:** access changes, attraction closures, transport problems, accommodation issues and visitor experiences.
 - **Traveller sentiment:** recurring complaints or emerging concerns that may signal a wider problem.
 
-Cover East, West, North, Central and Southern Africa, plus global developments that materially affect African travellers or important international routes.
+Cover East, West, North, Central and Southern Africa first, then global developments that materially affect travellers on important international routes or to and from Africa. Do not publish items that matter only to Kenyans.
 
 ### Research procedure
 
@@ -399,7 +399,7 @@ For every candidate, record: (1) what changed; (2) exact place and affected date
 If the traveller consequence or useful action cannot be stated clearly and supported by evidence, reject the candidate or keep it off the public briefing. Distinguish a direct travel alert from a destination feature, hospitality update or industry development; do not present them as interchangeable.
 
 ### Daily briefing standard
-Select 3–7 strongest qualifying items, but publish fewer when fewer pass. Never fill a quota with loosely related news. Cover Africa's regions and required editorial categories through relevant developments, not forced country or category representation. Global stories qualify only when they materially affect African travellers or important international routes. Every published item must include dates, links, traveller impact, practical action and confidence/status. Drafts remain unpublished until the user reviews and authorises publication.
+Select every qualifying item, up to 10 on a strong day (typically 5–10), and publish fewer when fewer pass; there is no daily minimum. Never fill a quota with loosely related news. Cover Africa's regions and required editorial categories through relevant developments, not forced country or category representation. Africa comes first, then global. Kenya is the editor's country of residence, not an editorial boundary: do not publish items that matter only to Kenyans or Kenya-based travellers. A Kenya item qualifies only when it has a verified consequence for travellers across Africa or on international routes. Global stories qualify when they materially affect travellers on important international routes or to and from Africa. Every published item must include dates, links, traveller impact, practical action and confidence/status. Drafts remain unpublished until the user reviews and authorises publication.
 
 **Governing rule: Travel relevance before newsworthiness. Traveller consequence before category fit. Evidence before publication. No quota-filling.**
 
@@ -409,12 +409,12 @@ Select 3–7 strongest qualifying items, but publish fewer when fewer pass. Neve
 Apply these rules on every daily research run:
 
 1. **Freshness:** Use East Africa Time (EAT, UTC+3). Prioritise items first published or materially updated in the preceding 24 hours. Older developments qualify only when a verifiable material change occurred within that window. Record both event date and publication/update date.
-2. **Coverage:** Search East, West, North, Central and Southern Africa, then global routes/destinations relevant to African travellers. Geographic balance is a search discipline, not a publishing quota; do not force one item per region or category.
+2. **Coverage:** Search East, West, North, Central and Southern Africa, then global routes and destinations with verified traveller impact. Geographic balance is a search discipline, not a publishing quota; do not force one item per region or category.
 3. **Search sequence:** Check official alerts/notices and responsible authorities first; use credible media for discovery and independent corroboration; use Reddit/social posts only as leads. Check prior research and published posts before shortlisting.
-4. **Weather and forecasts:** Do not turn a forecast, seasonal condition or general warning into a disruption alert. Publish only when an official warning or observed condition creates a specific, evidenced risk or action for a named destination, route, service or travel date. Clearly label forecast risk versus confirmed impact.
+4. **Weather and forecasts:** Do not turn a forecast, seasonal condition or general warning into a disruption alert. Publish only when an official warning or observed condition creates a specific, evidenced risk or action for a named destination, route, service or travel date. Clearly label forecast risk versus confirmed impact. Follow the weather and natural-hazard evidence rules in TRAVELALERTS_RESEARCH.md.
 5. **Operational status:** Distinguish confirmed disruption from planned works, schedule changes, proposed policy and precautionary warnings. Verify whether the issue is active, upcoming, resolved, extended or superseded immediately before drafting.
 6. **Confidence and publication:** Use CONFIRMED, PARTLY CONFIRMED, CONFLICTING, UNVERIFIED or STALE internally. UNVERIFIED and STALE items are not public alerts; keep them in monitoring notes or reject them. Do not imply that multiple reports independently corroborate one another when they repeat the same source.
-7. **Daily selection:** Publish up to 3–7 strongest qualifying items, and fewer when evidence warrants. No quota by country, region, topic or global/Africa split. Do not pad the briefing.
+7. **Daily selection:** Publish every qualifying item, up to 10 on a strong day (typically 5–10), and fewer when evidence warrants. No quota by country, region, topic or global/Africa split. Do not pad the briefing.
 8. **Per-item output:** Give an editorial headline; concise verified development; exact location and affected dates; event and update dates; affected traveller group; concrete traveller consequence; evidence-based action; current status/confidence; and direct source links. Keep alert, destination feature and commercial/industry opportunity clearly labelled as different story types.
 9. **Drafting and release:** Prepare separate concise platform drafts only where requested or part of the agreed workflow. No post, alert or scheduled content is published without the user's explicit approval.
 
@@ -458,6 +458,6 @@ Source registry fields: source, region, domain, tier, source type (official/orig
 
 ### Research-source retirement — 16 Nov 2026
 - Grok/xAI via Composio is **removed from the research and radar workflow**. Do not discover, call, test, or require Grok for research. This does **not** remove the separately approved Composio → Buffer X publishing route.
-- Samsung News is **not a dependable automated source**: Samsung announced discontinuation on 21 Dec 2026 (https://www.samsung.com/uk/support/newsalert/130018/). Treat it as optional manual discovery until closure; never report automated Samsung feed access without proof. Prefer original publisher feeds, official authorities and accessible Google News discovery.
+- Samsung News is **not a dependable automated source**: Samsung's in-app notice (first issued 26 Oct 2026 in India and South Korea) says the service shuts down on 21 Dec 2026 at 00:00 UTC (03:00 EAT), and a Samsung statement to one outlet says the shutdown is worldwide (checked 20 Nov 2026 via press reports; the Samsung support page https://www.samsung.com/uk/support/newsalert/130018/ could not be opened directly). Treat it as optional manual discovery until then and remove it from the source list afterwards; never report automated Samsung feed access without proof. Prefer original publisher feeds, official authorities and accessible Google News discovery.
 - Deduplication: use `data/travel-alerts-content-log.csv` as a seed ledger; compare canonical URL, event date, country and normalized incident key. A blank ledger is NOT proof of no previous coverage; mark `HISTORY_INCOMPLETE` until prior platform history is imported.
 - End-to-end gate: retrieve instructions, discover candidates, corroborate with primary authority, compare ledger and historical posts, assign P0/P1 only on verified material impact, prepare approval-only drafts, record each check and its limitations. No auto-publication or paid calls.

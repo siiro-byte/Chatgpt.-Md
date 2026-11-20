@@ -80,7 +80,7 @@ For research, analytics, reporting and calculations:
 ## 7. Travel Alerts.ke project guidance
 
 When the task explicitly concerns Travel Alerts.ke, read the applicable sections of `CHATGPT.md` before researching or drafting. In particular:
-- Africa is the primary coverage focus; global developments qualify when they materially affect travellers.
+- Africa comes first, then global. Kenya is the editor's home, not an editorial boundary: do not publish items that matter only to Kenyans. Global developments qualify when they materially affect travellers.
 - Prioritise new, current and relevant travel developments, especially breaking travel news and destination alerts.
 - Research travel and developments that directly affect travel; avoid generic travel filler.
 - Prioritise official government, immigration, airport, airline, health and other responsible authority sources. Use WHO sources when relevant to travel.

@@ -13,10 +13,10 @@ This file is the starting point for research work on Travel Alerts.ke.
 3. Visas, passports, borders, immigration and entry requirements.
 4. Airports, airlines, routes and ground or maritime transport.
 5. Tourism, hospitality and destination developments with practical visitor relevance.
-6. Global developments that materially affect African travellers or important international routes.
+6. Global developments with verified traveller impact on important international routes or travel to and from Africa (checked after Africa-wide candidates).
 
 ## Geographic coverage
-Africa is the primary focus. Maintain balanced coverage across East, West, North, Central and Southern Africa. Include global stories only when they materially affect African travellers, important international routes, or a clearly identified traveller decision. Novelty or popularity alone is insufficient.
+Africa comes first, then global. Kenya is the editor's country of residence, not an editorial boundary: do not publish items that matter only to Kenyans or Kenya-based travellers. A Kenya item qualifies only when it has a verified consequence for travellers across Africa or on international routes. Maintain balanced search coverage across East, West, North, Central and Southern Africa, then search global destinations and routes. Global stories qualify when they materially affect travellers on important international routes or to and from Africa, or a clearly identified traveller decision. Novelty or popularity alone is insufficient.
 
 ## Source discipline
 - Use Reddit and social platforms to discover leads and traveller experiences, not as proof.
@@ -52,7 +52,7 @@ Reject or retain as monitoring-only general crime, politics, migration tragedies
 
 For each item state what changed, exact place and affected dates, who is affected, the specific traveller consequence, supported practical action, original/official evidence, event date, publication/update date, current status, confidence and previous-coverage check. If the consequence or useful action cannot be substantiated, reject it.
 
-Select up to 3–7 strongest items only when they pass; fewer, including none, are acceptable. Never fill a quota. Search all five African regions, but do not force equal regional or category representation. Distinguish alerts from destination features and hospitality/industry updates. Global stories must materially affect African travellers or important international routes. Drafts remain unpublished pending user review and authorisation.
+Select every item that passes, up to 10 on a strong day (typically 5–10); fewer, including none, are acceptable. There is no daily minimum or fixed number. Never fill a quota. Search all five African regions, but do not force equal regional or category representation. Distinguish alerts from destination features and hospitality/industry updates. Global stories must materially affect African travellers or important international routes. Drafts remain unpublished pending user review and authorisation.
 
 **Governing rule:** Freshness and traveller relevance guide discovery. Evidence determines publication. Accuracy and trust take priority over virality.
 
@@ -63,9 +63,18 @@ Select up to 3–7 strongest items only when they pass; fewer, including none, a
 Use the following short instruction in ChatGPT Custom Instructions. It points to the repository guide but does not automatically load it; retrieve the latest files when doing Travel Alerts.ke research.
 
 ```text
-For Travel Alerts.ke work, follow the latest master guide at https://github.com/siiro-byte/Chatgpt.-Md/blob/main/CHATGPT.md and the research entry point at https://github.com/siiro-byte/Chatgpt.-Md/blob/main/TRAVELALERTS_RESEARCH.md. Retrieve and apply them for substantial research. Prioritise fresh, relevant travel developments across all African regions and global stories affecting travellers. Use Reddit/social posts as leads only; verify with official authorities and credible media. Check event dates, current status and previous coverage. Never invent facts or repeat stale alerts. Separate confirmed facts from uncertainty; prioritise accuracy and traveller value over virality.
+For Travel Alerts.ke work, retrieve and follow the latest CHATGPT.md and TRAVELALERTS_RESEARCH.md at https://github.com/siiro-byte/Chatgpt.-Md (they govern if they differ from this summary). Core rules: Africa first, then global. Kenya is the editor's home, not the audience: skip items that matter only to Kenyans. Search all five African regions and six domains (disruption, borders/visas, safety/health/weather, transport, tourism, traveller services). Verify with official authorities and credible media; Reddit/social posts are leads only. Check event date, current status and prior coverage; never repeat stale news. Publish every item that passes the traveller-impact gate, up to 10 a day; fewer or none is fine, never fill a quota. A forecast is not a disruption. Label confidence: CONFIRMED, PARTLY CONFIRMED, CONFLICTING, UNVERIFIED, STALE. Drafts only: never publish without my approval. No paid actions. Accuracy over virality.
 ```
 
+
+## Weather and natural-hazard evidence — Africa and global
+
+Applies to every region. No source or tool in this workflow is limited to one country.
+
+1. **Primary evidence:** the national meteorological service responsible for the affected place, plus the disaster-management, civil-aviation, port or road authority for the specific traveller consequence.
+2. **Regional and global corroboration:** WMO's severe-weather warnings portal; ACMAD (Africa), ICPAC (Greater Horn of Africa) and the SADC Climate Services Centre; tropical-cyclone centres (NHC, JTWC, Météo-France La Réunion for the south-west Indian Ocean); GDACS Red/Orange/Green levels for cyclones, floods, earthquakes, volcanoes, wildfires and drought; USGS for earthquakes. Links are in the Travel Alerts.ke source registry.
+3. **Supporting context only:** model data such as Open-Meteo and any generic risk score are never evidence of disruption or the basis of a public alert.
+4. **Forecast is not impact:** a warning, forecast or GDACS level is not proof of airport, road, port or park disruption. Name the place, period, affected travellers and the supported action, and state the issuing authority and its time zone.
 
 ## Source registry
 
@@ -112,7 +121,7 @@ After all independent research/verification and duplicate checks, apply the ligh
 
 ### Research-source retirement — 16 Nov 2026
 - Grok/xAI via Composio is **removed from the research and radar workflow**. Do not discover, call, test, or require Grok for research. This does **not** remove the separately approved Composio → Buffer X publishing route.
-- Samsung News is **not a dependable automated source**: Samsung announced discontinuation on 21 Dec 2026 (https://www.samsung.com/uk/support/newsalert/130018/). Treat it as optional manual discovery until closure; never report automated Samsung feed access without proof. Prefer original publisher feeds, official authorities and accessible Google News discovery.
+- Samsung News is **not a dependable automated source**: Samsung's in-app notice (first issued 26 Oct 2026 in India and South Korea) says the service shuts down on 21 Dec 2026 at 00:00 UTC (03:00 EAT), and a Samsung statement to one outlet says the shutdown is worldwide (checked 20 Nov 2026 via press reports; the Samsung support page https://www.samsung.com/uk/support/newsalert/130018/ could not be opened directly). Treat it as optional manual discovery until then and remove it from the source list afterwards; never report automated Samsung feed access without proof. Prefer original publisher feeds, official authorities and accessible Google News discovery.
 - Deduplication: use `data/travel-alerts-content-log.csv` as a seed ledger; compare canonical URL, event date, country and normalized incident key. A blank ledger is NOT proof of no previous coverage; mark `HISTORY_INCOMPLETE` until prior platform history is imported.
 - End-to-end gate: retrieve instructions, discover candidates, corroborate with primary authority, compare ledger and historical posts, assign P0/P1 only on verified material impact, prepare approval-only drafts, record each check and its limitations. No auto-publication or paid calls.
 
@@ -127,7 +136,7 @@ The daily editorial agenda must not be built solely from mainstream publisher he
 
 **Cross-check and select:** Merge both lanes by canonical incident key, check prior research and the content log, establish original event date and most recent material change, traveller impact and practical action. Score editorial attention qualitatively as VERIFIED TREND + VERIFIED IMPACT, VERIFIED IMPACT WITHOUT TREND, TREND SIGNAL AWAITING VERIFICATION (monitor only), or REPEAT/STALE (reject). Give strongest placement to genuinely current, actionable and well-substantiated developments with independent evidence of traveller interest; still prioritize verified P0/P1 emergencies even without social traction. Do not turn general popularity, virality, or search spikes into an alert without a concrete traveller consequence.
 
-**Daily output:** Deliver a short list of 3–5 genuinely qualified stories (fewer or zero acceptable). For each show trend evidence and whether verified, primary confirmation, publication/event dates in EAT, prior-coverage delta, why travellers care, recommended action, and approval-only platform suggestion. Separate confirmed alerts from emerging unverified watchlist items. Avoid repeated no-change updates and repetitive notification volume. Never reactivate hourly radar, publish automatically, or invoke Grok or paid APIs.
+**Daily output:** Deliver every genuinely qualified story, up to 10 (typically 5–10; fewer or zero acceptable). For each show trend evidence and whether verified, primary confirmation, publication/event dates in EAT, prior-coverage delta, why travellers care, recommended action, and approval-only platform suggestion. Separate confirmed alerts from emerging unverified watchlist items. Avoid repeated no-change updates and repetitive notification volume. Never reactivate hourly radar, publish automatically, or invoke Grok or paid APIs.
 
 
 ## TIKTOK TREND-FIRST DISTRIBUTION GATE — 17 NOV 2026

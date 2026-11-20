@@ -2,7 +2,7 @@
 
 **Purpose:** Central index of research services, their intended role, verified ChatGPT access status, account restrictions and cost controls.
 
-**Status checked:** 11 November 2026  
+**Status checked:** 11 November 2026 (Buffer row and Buffer verification entry re-checked 20 November 2026)  
 **Maintenance rule:** Update this file only after a live connector check or a confirmed account change. Tool availability is not proof that an external account is connected. A successful browser sign-in is not proof that ChatGPT's connector authorization has switched accounts.
 
 ## 1. Research and intelligence sources
@@ -20,6 +20,7 @@
 | Firecrawl | Website extraction and structured page research | Tool availability only; account authorization not verified here | Account-level entitlement not established | Check credits and estimated cost before use |
 | Notion | Workspace research and knowledge capture | Not verified in this access review | Do not assume a workspace is connected | No paid action without approval |
 | Composio | Orchestration across authorized external services | Tool available; target-app authorization must be checked per workflow | A Composio tool being available does not establish that a particular app account is authorized | Inspect usage/cost before calls; no paid use without approval |
+| Buffer (via Composio) | Approved X publishing for @travelalertss; sent-post history for the content log | Connected. Checked 20 Nov 2026 (read-only): the travelalertss X channel was returned as connected and unlocked, with publishing enabled | A Karen Interiors D&D Facebook channel is listed but disconnected. Publishing requires the editor's explicit approval of the exact text and a fresh channel ID from `BUFFER_GET_ACCOUNT_CONTEXT` each run. A quota failure is not a disconnection. | Use existing access; no upgrade or paid action without approval |
 
 ## 2. Project source registers
 
@@ -29,6 +30,8 @@
 | TikTok Growth Intelligence | https://github.com/siiro-byte/Tiktok-growth-intelligence-system/blob/main/SOURCES.md | Platform-native trend sources, first-party analytics, competitor observation and brand-specific research |
 | Master working principles | https://github.com/siiro-byte/Chatgpt.-Md/blob/main/CHATGPT.md | Evidence standards, verification, user control and project guidance |
 | Travel Alerts.ke research entry point | https://github.com/siiro-byte/Chatgpt.-Md/blob/main/TRAVELALERTS_RESEARCH.md | Research priorities, geographic coverage, source discipline and publication gate |
+| Simo Traveller | https://github.com/siiro-byte/Simo-Travel-/blob/main/SOURCES.md | Destination, transport, border and travel-video fact-checking sources (private repository) |
+| KA-IN | https://github.com/siiro-byte/ka-in/blob/main/KA-IN_SOURCES.md | Competitor and industry sources for KA-IN (private repository, moved from this repository on 20 Nov 2026) |
 
 ## 3. Project routing
 
@@ -74,5 +77,6 @@ Before using a connected analytics or research service:
 | 11 Nov 2026 | Windsor.ai connected accounts | Connected-account list returned; data access restricted by Free-plan account limit |
 | 11 Nov 2026 | Windsor.ai YouTube connector | No YouTube account appeared in the returned connected-account list |
 | 11 Nov 2026 | Metricool connection profiles | Two profiles, Primary and Metricool, exposed by connector tool schema; brand-level scope still requires live verification |
+| 20 Nov 2026 | Buffer account context and recent sent posts (read-only) | travelalertss X channel connected and unlocked; Karen Interiors D&D Facebook channel disconnected; sent posts read to update the content log |
 
 **Important:** This register records access evidence available at the time of checking. It is not a guarantee that a provider's service, account permissions, plan or connector state will remain unchanged.

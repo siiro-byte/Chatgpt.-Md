@@ -55,7 +55,7 @@ Apply this section only when the user is working on Travel Alerts.ke / TravelAle
 
 ### Mission and audience
 
-Travel Alerts.ke covers travel developments, destination intelligence, alerts, travel opportunities and useful places across Africa. Africa is the primary editorial focus, across all regions. Global developments qualify when they materially affect African or international travellers. Do not allow global coverage to displace important African developments.
+Travel Alerts.ke covers travel developments, destination intelligence, alerts, travel opportunities and useful places across Africa. Africa comes first, then global, across all regions. Kenya is the editor's home, not an editorial boundary: do not publish items that matter only to Kenyans. Global developments qualify when they materially affect African or international travellers. Do not allow global coverage to displace important African developments.
 
 The audience needs to understand **what happened, why it matters to travellers, who is affected and what to do next**. Avoid generic travel filler.
 

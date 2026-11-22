@@ -30,7 +30,6 @@
 | TikTok Growth Intelligence | https://github.com/siiro-byte/Tiktok-growth-intelligence-system/blob/main/SOURCES.md | Platform-native trend sources, first-party analytics, competitor observation and brand-specific research |
 | Master working principles | https://github.com/siiro-byte/Chatgpt.-Md/blob/main/CHATGPT.md | Evidence standards, verification, user control and project guidance |
 | Travel Alerts.ke research entry point | https://github.com/siiro-byte/Chatgpt.-Md/blob/main/TRAVELALERTS_RESEARCH.md | Research priorities, geographic coverage, source discipline and publication gate |
-| Simo Traveller | https://github.com/siiro-byte/Simo-Travel-/blob/main/SOURCES.md | Destination, transport, border and travel-video fact-checking sources (private repository) |
 | KA-IN | https://github.com/siiro-byte/ka-in/blob/main/KA-IN_SOURCES.md | Competitor and industry sources for KA-IN (private repository, moved from this repository on 20 Nov 2026) |
 
 ## 3. Project routing
@@ -41,11 +40,6 @@
 - Social and Reddit: leads only; independently verify before treating claims as facts.
 - Analytics and growth: Metricool, vidIQ and other services only after the correct Travel Alerts.ke account is confirmed.
 - Keep Africa-wide coverage balanced; include global developments when they materially affect travellers.
-
-### Simo Traveller
-- YouTube discovery: YouTube Studio/YouTube-native research and vidIQ where authorized.
-- Social analytics: Metricool and Windsor only after the correct Simo Traveller account and reporting period are confirmed.
-- Keep its audience and performance analysis separate from Travel Alerts.ke.
 
 ### KA-IN
 - Competitor and market research: public competitor websites and public evidence, with Similarweb/Ahrefs only where authorized and cost-checked.

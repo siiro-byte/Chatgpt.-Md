@@ -8,7 +8,6 @@ This index connects the source directories for the user's active projects. Each 
 |---|---|---|
 | Travel Alerts.ke | https://github.com/siiro-byte/travel-alerts-ke/blob/main/SOURCES.md | [CHATGPT.md](https://github.com/siiro-byte/Chatgpt.-Md/blob/main/CHATGPT.md) and [TRAVELALERTS_RESEARCH.md](https://github.com/siiro-byte/Chatgpt.-Md/blob/main/TRAVELALERTS_RESEARCH.md) |
 | KA-IN | [KA-IN_SOURCES.md](https://github.com/siiro-byte/ka-in/blob/main/KA-IN_SOURCES.md) (private repository) | KA-IN project decisions and brand requirements in the active project context |
-| Simo Traveller | https://github.com/siiro-byte/Simo-Travel-/blob/main/SOURCES.md | [TikTok Growth Intelligence source registry](https://github.com/siiro-byte/Tiktok-growth-intelligence-system/blob/main/SOURCES.md) and Simo Traveller project decisions |
 | TikTok Growth Intelligence | https://github.com/siiro-byte/Tiktok-growth-intelligence-system/blob/main/SOURCES.md | [Experiment log and testing rules](https://github.com/siiro-byte/Tiktok-growth-intelligence-system/blob/main/README.md) |
 
 ## How to use

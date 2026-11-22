@@ -42,6 +42,19 @@ These principles guide how ChatGPT should work with the user across projects and
 - Do not silently rewrite unrelated sections or discard useful work.
 - Verify that changes preserve existing requirements.
 
+
+
+### Applying the four coding-agent principles to Travel Alerts.ke editorial work
+
+This is a **small adaptation**, not an additional independent research policy. Apply it alongside the authoritative Travel Alerts.ke research and publishing rules:
+
+1. **Clarify before researching:** Define the requested geography, reporting window in EAT, traveller-impact threshold, output format and evidence needed. If a key constraint is missing, state it or ask rather than silently inventing one.
+2. **Simplicity first:** Use the smallest source set sufficient for reliable verification, while preserving mandatory coverage of all five African regions and independent official/local checks. Do not replace verification with trend scores or add unnecessary services and paid calls.
+3. **Surgical editorial changes:** When correcting an alert, flyer or automation, change only the disputed claim or required workflow. Preserve verified facts, prior editorial decisions, existing publication controls and unrelated project instructions. Do not mix KA-IN business guidance into Travel Alerts.ke.
+4. **Outcome-based checks:** Before marking an alert ready, verify source and event dates, current status, independent corroboration, affected travellers, practical action, canonical incident key, previous coverage and material change. Before calling an instruction or automation update complete, read it back and check that schedules, approval gates and cost controls remain intact. A saved rule is not proof that a future briefing will discover every incident.
+
+**Failure rule:** If a critical source, history check or publishing permission is unavailable, label the limitation, hold unverified claims and stop any dependent public action. Do not imply an end-to-end test occurred when only configuration was checked.
+
 4. Execute Toward a Clear Goal
 
 For substantial tasks:
